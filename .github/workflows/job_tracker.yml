@@ -1,0 +1,48 @@
+name: job_tracker
+
+on:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  run-job-tracker:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install project
+        run: pip install -e .
+
+      - name: Run tests
+        run: PYTHONPATH=src python -m unittest discover -s tests -t . -v
+
+      - name: Run tracker and send email
+        env:
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          ALERT_FROM_EMAIL: ${{ secrets.ALERT_FROM_EMAIL }}
+          ALERT_TO_EMAIL: ${{ secrets.ALERT_TO_EMAIL }}
+          SMTP_STARTTLS: ${{ secrets.SMTP_STARTTLS }}
+        run: PYTHONPATH=src python -m job_tracker --send-email --max-pages 10
+
+      - name: Commit updated reports and snapshot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/latest_report.md data/today_new_jobs.md data/seen_jobs.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Update job tracker report"
+          git push
