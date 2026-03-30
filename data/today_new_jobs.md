@@ -1,39 +1,50 @@
 # Today's Job Tracker Summary
 
-New jobs today: 3
+New jobs today: 4
 Removed since last run: 0
 
 ## New jobs today
 
-- Consultant for Disaster Risk Data Ecosystems to Strengthen Early Warning Governance in Haiti
-  Organization: UNDRR - United Nations Office for Disaster Risk Reduction
-  Location: Port-au-Prince, Panamá
+- Data Assistant -Jaipur
+  Organization: Jhpiego
+  Location: Jaipur
   Posting date: Unknown
-  Application deadline: April 06, 2026 (8 days)
+  Application deadline: Unknown
   Contract type: Unknown
   Scope: Unknown
-  Grade/level: Unknown
-  Remote: Remote
-  Link: https://www.impactpool.org/jobs/1204971
+  Grade/level: NOT
+  Remote: On-site/Hybrid
+  Link: https://www.impactpool.org/jobs/1205009
 
-- Programme Analyst (Technical Assistance for Social Housing)
-  Organization: UNHABITAT - United Nations Human Settlements Programme
-  Location: Brazil, São Paulo, Rio de Janeiro
+- GREEN AI ASSOCIATE
+  Organization: GGGI - Global Green Growth Institute
+  Location: Seoul
   Posting date: Unknown
-  Application deadline: April 03, 2026 (5 days)
+  Application deadline: April 20, 2026 (21 days)
   Contract type: Unknown
   Scope: Unknown
   Grade/level: Unknown
   Remote: On-site/Hybrid
-  Link: https://www.impactpool.org/jobs/1204969
+  Link: https://www.impactpool.org/jobs/1205000
 
-- Programme Analyst
-  Organization: UNHABITAT - United Nations Human Settlements Programme
-  Location: São Paulo, Rio de Janeiro, Brazil
+- GREEN AI SENIOR ASSISTANT
+  Organization: GGGI - Global Green Growth Institute
+  Location: Seoul
   Posting date: Unknown
-  Application deadline: April 03, 2026 (5 days)
+  Application deadline: April 20, 2026 (21 days)
   Contract type: Unknown
   Scope: Unknown
   Grade/level: Unknown
   Remote: On-site/Hybrid
-  Link: https://www.impactpool.org/jobs/1204968
+  Link: https://www.impactpool.org/jobs/1204998
+
+- MEAL OFFICER
+  Organization: IRC - International Rescue Committee
+  Location: Abuja
+  Posting date: Unknown
+  Application deadline: April 06, 2026 (7 days)
+  Contract type: Unknown
+  Scope: Unknown
+  Grade/level: Unknown
+  Remote: On-site/Hybrid
+  Link: https://www.impactpool.org/jobs/1205024
