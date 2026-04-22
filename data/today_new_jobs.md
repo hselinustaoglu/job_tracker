@@ -1,105 +1,83 @@
 # Today's Job Tracker Summary
 
-New jobs today: 9
+New jobs today: 7
 Removed since last run: 0
 
 ## New jobs today
 
-- Consultancy on Grants Monitoring and Reporting
-  Organization: UNCCD - United Nations Convention to Combat Desertification
-  Location: Bonn
+- Programme Management Office (PRMO) - Analyst
+  Organization: UNOPS - United Nations Office for Project Services
+  Location: Damascus
   Posting date: Unknown
-  Application deadline: Unknown
+  Application deadline: May 05, 2026 (13 days)
+  Contract type: Unknown
+  Scope: Unknown
+  Grade/level: ICS08
+  Remote: On-site/Hybrid
+  Link: https://www.impactpool.org/jobs/1209091
+
+- Monitoring and Evaluation Specialist
+  Organization: UNIDO - United Nations Industrial Development Organization
+  Location: Vienna
+  Posting date: Unknown
+  Application deadline: May 12, 2026 (20 days)
+  Contract type: Unknown
+  Scope: International
+  Grade/level: Unknown
+  Remote: On-site/Hybrid
+  Link: https://www.impactpool.org/jobs/1209063
+
+- IT Solutions Analyst
+  Organization: WTO - World Trade Organization
+  Location: Geneva
+  Posting date: Unknown
+  Application deadline: May 18, 2026 (26 days)
+  Contract type: Unknown
+  Scope: International
+  Grade/level: Unknown
+  Remote: On-site/Hybrid
+  Link: https://www.impactpool.org/jobs/1209026
+
+- International Consultant Information Management & Reporting Officer CSTI
+  Organization: WFP - World Food Programme
+  Location: N'Djamena
+  Posting date: Unknown
+  Application deadline: May 05, 2026 (13 days)
   Contract type: Consultancy
   Scope: Unknown
   Grade/level: Unknown
-  Remote: Remote
-  Link: https://www.impactpool.org/jobs/1208930
+  Remote: On-site/Hybrid
+  Link: https://www.impactpool.org/jobs/1208996
 
-- MEAL Senior Coordinator
-  Organization: IRC - International Rescue Committee
-  Location: Port Sudan
+- Junior Service Delivery Analyst
+  Organization: World Bank Group
+  Location: Honiara
   Posting date: Unknown
-  Application deadline: Unknown
+  Application deadline: May 03, 2026 (11 days)
+  Contract type: Administrative support
+  Scope: Unknown
+  Grade/level: Unknown
+  Remote: On-site/Hybrid
+  Link: https://www.impactpool.org/jobs/1208986
+
+- Regional Political and Information Analyst NAME
+  Organization: ICRC - International Committee of the Red Cross
+  Location: Jordan
+  Posting date: Unknown
+  Application deadline: May 22, 2026 (about 1 month)
   Contract type: Unknown
   Scope: Unknown
   Grade/level: Unknown
   Remote: On-site/Hybrid
-  Link: https://www.impactpool.org/jobs/1208923
+  Link: https://www.impactpool.org/jobs/1208938
 
-- Review of the national system for monitoring the risk of education segregation of Roma children, Geneva, Switzerlan, 5 months (Internationals, Home Based)
-  Organization: UNICEF - United Nations Children’s Fund
-  Location: Geneva
+- Gender Policy Analyst
+  Organization: UNDP - United Nations Development Programme
+  Location: Sarajevo
   Posting date: Unknown
-  Application deadline: April 27, 2026 (6 days)
-  Contract type: Unknown
-  Scope: International
-  Grade/level: NOT
-  Remote: Remote
-  Link: https://www.impactpool.org/jobs/1208909
-
-- CFA2026/002 Monitoring & Evaluation Assistant
-  Organization: IOM - International Organization for Migration
-  Location: San Salvador
-  Posting date: Unknown
-  Application deadline: Unknown
-  Contract type: Unknown
+  Application deadline: April 28, 2026 (6 days)
+  Contract type: NPSA-8
   Scope: Unknown
-  Grade/level: Unknown
+  Grade/level: NPSA-8
   Remote: On-site/Hybrid
-  Link: https://www.impactpool.org/jobs/1208886
-
-- Geopolitical Analyst
-  Organization: Unknown
-  Location: Asia-Pacific Strategic Systems and Dynamic Centre PTE. LTD. vacancy: Geopolitical Analyst in
-  Posting date: Unknown
-  Application deadline: April 27, 2026 (6 days)
-  Contract type: Consultant - Contractors Agreement - Consultancy
-  Scope: Unknown
-  Grade/level: Unknown
-  Remote: Remote
-  Link: https://www.impactpool.org/jobs/1208861
-
-- ( RFP301202) - Senior Analyst - Oficina de la Directora Gerente para las Américas Oficina Bogota
-  Organization: Alliance Bioversity & CIAT
-  Location: Bogotá
-  Posting date: Unknown
-  Application deadline: May 04, 2026 (13 days)
-  Contract type: Unknown
-  Scope: Unknown
-  Grade/level: Unknown
-  Remote: On-site/Hybrid
-  Link: https://www.impactpool.org/jobs/1208825
-
-- Financial Analyst – Expenditure and Treasury
-  Organization: OECD - Organisation for Economic Co-operation and Development
-  Location: Paris
-  Posting date: Unknown
-  Application deadline: May 10, 2026 (19 days)
-  Contract type: Unknown
-  Scope: Unknown
-  Grade/level: Unknown
-  Remote: On-site/Hybrid
-  Link: https://www.impactpool.org/jobs/1208801
-
-- Information Management Officer Mozambique Mueda
-  Organization: NRC - Norwegian Refugee Council
-  Location: Mozambique
-  Posting date: Unknown
-  Application deadline: May 05, 2026 (14 days)
-  Contract type: Unknown
-  Scope: Unknown
-  Grade/level: Unknown
-  Remote: On-site/Hybrid
-  Link: https://www.impactpool.org/jobs/1208778
-
-- Analyst - Better Care for Non Communicable Diseases Initiative
-  Organization: UNV - United Nations Volunteers
-  Location: Buenos Aires
-  Posting date: Unknown
-  Application deadline: May 10, 2026 (19 days)
-  Contract type: Unknown
-  Scope: Unknown
-  Grade/level: NON
-  Remote: On-site/Hybrid
-  Link: https://www.impactpool.org/jobs/1208763
+  Link: https://www.impactpool.org/jobs/649393
