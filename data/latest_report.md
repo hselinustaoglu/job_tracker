@@ -1,208 +1,153 @@
 # Impactpool Job Tracker Report
 
-Current matching jobs: 628
-New since last run: 18
+Current matching jobs: 641
+New since last run: 13
 Removed since last run: 0
 
 ## New jobs
 
-- Data Engineering Intern
-  Organization: UNDPPA-DPO - United Nations Departments of Political and Peacebuilding Affairs and Peace Operations
-  Location: New York City
+- Junior Modernisation Officer – Data and Reporting
+  Organization: ICMPD - International Centre for Migration Policy Development
+  Location: Region
   Posting date: Unknown
-  Application deadline: May 14, 2026 (15 days)
-  Contract type: Internship - Internship
+  Application deadline: June 03, 2026 (about 1 month)
+  Contract type: International Professional
+  Scope: International
+  Grade/level: Unknown
+  Remote: On-site/Hybrid
+  Link: https://www.impactpool.org/jobs/1210795
+
+- Modernisation Officer – AI and Automation Support
+  Organization: ICMPD - International Centre for Migration Policy Development
+  Location: Beirut, Tunis
+  Posting date: Unknown
+  Application deadline: June 03, 2026 (about 1 month)
+  Contract type: International Professional
+  Scope: International
+  Grade/level: Unknown
+  Remote: On-site/Hybrid
+  Link: https://www.impactpool.org/jobs/1210793
+
+- Counter-Narcotics Sector Assessment Expert (Consultant)
+  Organization: UNODC - United Nations Office on Drugs and Crime
+  Location: Phnom Penh, Bangkok
+  Posting date: Unknown
+  Application deadline: May 10, 2026 (10 days)
+  Contract type: Unknown
   Scope: Unknown
   Grade/level: Unknown
   Remote: Remote
-  Link: https://www.impactpool.org/jobs/1210606
+  Link: https://www.impactpool.org/jobs/1210760
 
-- Cybersecurity Event Monitoring and Incident Response Consultant
-  Organization: AIIB - Asian Infrastructure Investment Bank
-  Location: Beijing
+- Head of the Artificial Intelligence and Data Protection Division
+  Organization: COE - Council of Europe
+  Location: Strasbourg
   Posting date: Unknown
-  Application deadline: May 16, 2026 (17 days)
+  Application deadline: May 20, 2026 (20 days)
   Contract type: Unknown
   Scope: Unknown
   Grade/level: Unknown
   Remote: On-site/Hybrid
-  Link: https://www.impactpool.org/jobs/1210595
+  Link: https://www.impactpool.org/jobs/1210718
 
-- Mining Value Chain Analyst in the Extractive Commodities Section
-  Organization: UNCTAD - United Nations Conference on Trade and Development
-  Location: Geneva
+- E T consultant - Programming Analyst
+  Organization: World Bank Group
+  Location: Washington D.C.
   Posting date: Unknown
-  Application deadline: May 12, 2026 (13 days)
-  Contract type: Internship - Internship
+  Application deadline: May 13, 2026 (13 days)
+  Contract type: Consultancy
   Scope: Unknown
   Grade/level: Unknown
-  Remote: Remote
-  Link: https://www.impactpool.org/jobs/1210581
+  Remote: On-site/Hybrid
+  Link: https://www.impactpool.org/jobs/1210679
 
-- Communications M&E and Outreach Intern
-  Organization: UNDGC - United Nations Department of Global Communications
-  Location: Port of Spain
-  Posting date: Unknown
-  Application deadline: May 15, 2026 (16 days)
-  Contract type: Internship - Internship
-  Scope: Unknown
-  Grade/level: Unknown
-  Remote: Remote
-  Link: https://www.impactpool.org/jobs/1210579
-
-- National/International Consultant End-of-programme performance & process evaluation of the UN Joint Prog on Social Protection Phase II/Planning Monitoring & Evaluation, Lusaka Zambia 2.5 months 592702
+- Re-advertised: Scaling Strategy Consultancy – Data Integrator Tool and Drought Monitoring System for Climate-Resilient WASH , Denmark, OoI, 6 months (Remote)
   Organization: UNICEF - United Nations Children’s Fund
-  Location: Lusaka
+  Location: Copenhagen
   Posting date: Unknown
-  Application deadline: May 04, 2026 (5 days)
-  Contract type: Consultant - Contractors Agreement - Consultancy
-  Scope: Unknown
-  Grade/level: Unknown
-  Remote: Remote
-  Link: https://www.impactpool.org/jobs/1210546
-
-- National Consultant to conduct Situation Analysis for Children and Adults with Disabilities, Syria, Social Policy, 6.8 months (National Consultancy, Remote+On-site)
-  Organization: UNICEF - United Nations Children’s Fund
-  Location: Syria
-  Posting date: Unknown
-  Application deadline: May 12, 2026 (13 days)
+  Application deadline: May 06, 2026 (6 days)
   Contract type: Consultancy
   Scope: Unknown
   Grade/level: Unknown
   Remote: Remote
-  Link: https://www.impactpool.org/jobs/1210540
+  Link: https://www.impactpool.org/jobs/1210667
 
-- Research/M&E Specialist Consultant, Rome, ADAP section, National Response Italy , ECARO O/P, Remote work, open for National Consultants
+- Rapid Needs Assessment Consultant of WASH in Schools, 22 days, Harare, Zimbabwe, Remote, (Open for Nationals of Zimbabwe only), #592631
   Organization: UNICEF - United Nations Children’s Fund
-  Location: Rome
+  Location: Harare
   Posting date: Unknown
-  Application deadline: May 04, 2026 (5 days)
+  Application deadline: May 12, 2026 (12 days)
   Contract type: Consultant - Contractors Agreement - Consultancy
   Scope: Unknown
   Grade/level: Unknown
   Remote: Remote
-  Link: https://www.impactpool.org/jobs/1210516
+  Link: https://www.impactpool.org/jobs/1210665
 
-- Analyst - Type 1 Diabetes
-  Organization: CHAI - Clinton Health Access Initiative
-  Location: Bhopal
+- YPP, Policy Analysis & Strategic Engagements
+  Organization: NATO - North Atlantic Treaty Organization
+  Location: Brussels, Norfolk, Virginia
   Posting date: Unknown
-  Application deadline: May 28, 2026 (29 days)
+  Application deadline: May 31, 2026 (about 1 month)
   Contract type: Unknown
   Scope: Unknown
   Grade/level: Unknown
   Remote: On-site/Hybrid
-  Link: https://www.impactpool.org/jobs/1210503
+  Link: https://www.impactpool.org/jobs/1210649
 
-- Data Specialist
-  Organization: FAO - Food and Agriculture Organization of the United Nations
-  Location: Multiple locations
+- YPP, Data Engineering & Artificial Intelligence
+  Organization: NATO - North Atlantic Treaty Organization
+  Location: Brussels
   Posting date: Unknown
-  Application deadline: May 19, 2026 (20 days)
-  Contract type: Consultant - Contractors Agreement - Consultancy
-  Scope: Unknown
-  Grade/level: Unknown
-  Remote: On-site/Hybrid
-  Link: https://www.impactpool.org/jobs/1210388
-
-- National Monitoring and Evaluation Specialist
-  Organization: FAO - Food and Agriculture Organization of the United Nations
-  Location: Jamaica
-  Posting date: Unknown
-  Application deadline: May 26, 2026 (27 days)
-  Contract type: Consultant - Contractors Agreement - Consultancy
-  Scope: Unknown
-  Grade/level: Unknown
-  Remote: On-site/Hybrid
-  Link: https://www.impactpool.org/jobs/1210385
-
-- Data Visualization Specialist Spatial Planning (Level A)
-  Organization: UNEP - United Nations Environment Programme
-  Location: Bonn
-  Posting date: Unknown
-  Application deadline: May 05, 2026 (6 days)
-  Contract type: Unknown
-  Scope: Unknown
-  Grade/level: Unknown
-  Remote: Remote
-  Link: https://www.impactpool.org/jobs/1210354
-
-- Resources Planning & Administration Senior Analyst
-  Organization: IDB - Inter-American Development Bank
-  Location: Washington D.C.
-  Posting date: Unknown
-  Application deadline: May 11, 2026 (12 days)
+  Application deadline: May 31, 2026 (about 1 month)
   Contract type: Unknown
   Scope: Unknown
   Grade/level: Unknown
   Remote: On-site/Hybrid
-  Link: https://www.impactpool.org/jobs/1210342
+  Link: https://www.impactpool.org/jobs/1210643
 
-- Data Visualization Specialist Spatial Planning (Level A)
-  Organization: UNEP - United Nations Environment Programme
-  Location: Bonn
+- YPP, Operations Research and Analysis
+  Organization: NATO - North Atlantic Treaty Organization
+  Location: Brunssum, Brussels, Norfolk, Lisbon
   Posting date: Unknown
-  Application deadline: May 05, 2026 (6 days)
+  Application deadline: May 31, 2026 (about 1 month)
   Contract type: Unknown
   Scope: Unknown
   Grade/level: Unknown
-  Remote: Remote
-  Link: https://www.impactpool.org/jobs/1210326
+  Remote: On-site/Hybrid
+  Link: https://www.impactpool.org/jobs/1210637
 
-- Project Analyst (Democratic Governance) (Open to internal and external applicants)
+- YPP, Artificial Intelligence and Operations Research Analysis
+  Organization: NATO - North Atlantic Treaty Organization
+  Location: Norfolk, Brunssum, Brussels, Ramstein-Miesenbach
+  Posting date: Unknown
+  Application deadline: May 31, 2026 (about 1 month)
+  Contract type: Unknown
+  Scope: Unknown
+  Grade/level: Unknown
+  Remote: On-site/Hybrid
+  Link: https://www.impactpool.org/jobs/1210632
+
+- Monitoring and Evaluation Officer
+  Organization: CBM - Christian Blind Mission
+  Location: Rivers, Abuja
+  Posting date: Unknown
+  Application deadline: May 13, 2026 (13 days)
+  Contract type: Unknown
+  Scope: Unknown
+  Grade/level: Unknown
+  Remote: On-site/Hybrid
+  Link: https://www.impactpool.org/jobs/1210626
+
+- Tech Lead Analyst, Software Engineering and Data Science (Open to Internal and External applicants)
   Organization: UNDP - United Nations Development Programme
-  Location: Suva, Yaren
+  Location: Brazil, Rio de Janeiro
   Posting date: Unknown
-  Application deadline: May 13, 2026 (14 days)
+  Application deadline: May 07, 2026 (7 days)
   Contract type: NPSA-9
   Scope: Unknown
   Grade/level: NPSA-9
   Remote: On-site/Hybrid
-  Link: https://www.impactpool.org/jobs/1210321
-
-- [GP] Investment Analyst (6404)
-  Organization: AIIB - Asian Infrastructure Investment Bank
-  Location: Beijing
-  Posting date: Unknown
-  Application deadline: Unknown
-  Contract type: Unknown
-  Scope: Unknown
-  Grade/level: Unknown
-  Remote: On-site/Hybrid
-  Link: https://www.impactpool.org/jobs/1210306
-
-- Internship - Evaluation of Fission Yield and Fission Neutron Data
-  Organization: IAEA - International Atomic Energy Agency
-  Location: Monaco, Seibersdorf, Vienna
-  Posting date: Unknown
-  Application deadline: May 04, 2026 (5 days)
-  Contract type: Internship - Internship
-  Scope: Unknown
-  Grade/level: Unknown
-  Remote: On-site/Hybrid
-  Link: https://www.impactpool.org/jobs/1210192
-
-- Data & Innovation Assistant (Malaysian Nationals Only - Open to All Applicants)
-  Organization: UNDP - United Nations Development Programme
-  Location: Putrajaya
-  Posting date: Unknown
-  Application deadline: May 06, 2026 (7 days)
-  Contract type: NPSA-4
-  Scope: Unknown
-  Grade/level: NPSA-4
-  Remote: On-site/Hybrid
-  Link: https://www.impactpool.org/jobs/652212
-
-- Project Analyst (Open to Internal and External Applicants)
-  Organization: UNDP - United Nations Development Programme
-  Location: Beira
-  Posting date: Unknown
-  Application deadline: April 30, 2026
-  Contract type: NPSA-8
-  Scope: Unknown
-  Grade/level: NPSA-8
-  Remote: On-site/Hybrid
-  Link: https://www.impactpool.org/jobs/648760
+  Link: https://www.impactpool.org/jobs/1209242
 
 ## Removed jobs
 
@@ -210,11 +155,143 @@ None
 
 ## Current active jobs
 
+- Junior Modernisation Officer – Data and Reporting
+  Organization: ICMPD - International Centre for Migration Policy Development
+  Location: Region
+  Posting date: Unknown
+  Application deadline: June 03, 2026 (about 1 month)
+  Contract type: International Professional
+  Scope: International
+  Grade/level: Unknown
+  Remote: On-site/Hybrid
+  Link: https://www.impactpool.org/jobs/1210795
+
+- Modernisation Officer – AI and Automation Support
+  Organization: ICMPD - International Centre for Migration Policy Development
+  Location: Beirut, Tunis
+  Posting date: Unknown
+  Application deadline: June 03, 2026 (about 1 month)
+  Contract type: International Professional
+  Scope: International
+  Grade/level: Unknown
+  Remote: On-site/Hybrid
+  Link: https://www.impactpool.org/jobs/1210793
+
+- Counter-Narcotics Sector Assessment Expert (Consultant)
+  Organization: UNODC - United Nations Office on Drugs and Crime
+  Location: Phnom Penh, Bangkok
+  Posting date: Unknown
+  Application deadline: May 10, 2026 (10 days)
+  Contract type: Unknown
+  Scope: Unknown
+  Grade/level: Unknown
+  Remote: Remote
+  Link: https://www.impactpool.org/jobs/1210760
+
+- Head of the Artificial Intelligence and Data Protection Division
+  Organization: COE - Council of Europe
+  Location: Strasbourg
+  Posting date: Unknown
+  Application deadline: May 20, 2026 (20 days)
+  Contract type: Unknown
+  Scope: Unknown
+  Grade/level: Unknown
+  Remote: On-site/Hybrid
+  Link: https://www.impactpool.org/jobs/1210718
+
+- E T consultant - Programming Analyst
+  Organization: World Bank Group
+  Location: Washington D.C.
+  Posting date: Unknown
+  Application deadline: May 13, 2026 (13 days)
+  Contract type: Consultancy
+  Scope: Unknown
+  Grade/level: Unknown
+  Remote: On-site/Hybrid
+  Link: https://www.impactpool.org/jobs/1210679
+
+- Re-advertised: Scaling Strategy Consultancy – Data Integrator Tool and Drought Monitoring System for Climate-Resilient WASH , Denmark, OoI, 6 months (Remote)
+  Organization: UNICEF - United Nations Children’s Fund
+  Location: Copenhagen
+  Posting date: Unknown
+  Application deadline: May 06, 2026 (6 days)
+  Contract type: Consultancy
+  Scope: Unknown
+  Grade/level: Unknown
+  Remote: Remote
+  Link: https://www.impactpool.org/jobs/1210667
+
+- Rapid Needs Assessment Consultant of WASH in Schools, 22 days, Harare, Zimbabwe, Remote, (Open for Nationals of Zimbabwe only), #592631
+  Organization: UNICEF - United Nations Children’s Fund
+  Location: Harare
+  Posting date: Unknown
+  Application deadline: May 12, 2026 (12 days)
+  Contract type: Consultant - Contractors Agreement - Consultancy
+  Scope: Unknown
+  Grade/level: Unknown
+  Remote: Remote
+  Link: https://www.impactpool.org/jobs/1210665
+
+- YPP, Policy Analysis & Strategic Engagements
+  Organization: NATO - North Atlantic Treaty Organization
+  Location: Brussels, Norfolk, Virginia
+  Posting date: Unknown
+  Application deadline: May 31, 2026 (about 1 month)
+  Contract type: Unknown
+  Scope: Unknown
+  Grade/level: Unknown
+  Remote: On-site/Hybrid
+  Link: https://www.impactpool.org/jobs/1210649
+
+- YPP, Data Engineering & Artificial Intelligence
+  Organization: NATO - North Atlantic Treaty Organization
+  Location: Brussels
+  Posting date: Unknown
+  Application deadline: May 31, 2026 (about 1 month)
+  Contract type: Unknown
+  Scope: Unknown
+  Grade/level: Unknown
+  Remote: On-site/Hybrid
+  Link: https://www.impactpool.org/jobs/1210643
+
+- YPP, Operations Research and Analysis
+  Organization: NATO - North Atlantic Treaty Organization
+  Location: Brunssum, Brussels, Norfolk, Lisbon
+  Posting date: Unknown
+  Application deadline: May 31, 2026 (about 1 month)
+  Contract type: Unknown
+  Scope: Unknown
+  Grade/level: Unknown
+  Remote: On-site/Hybrid
+  Link: https://www.impactpool.org/jobs/1210637
+
+- YPP, Artificial Intelligence and Operations Research Analysis
+  Organization: NATO - North Atlantic Treaty Organization
+  Location: Norfolk, Brunssum, Brussels, Ramstein-Miesenbach
+  Posting date: Unknown
+  Application deadline: May 31, 2026 (about 1 month)
+  Contract type: Unknown
+  Scope: Unknown
+  Grade/level: Unknown
+  Remote: On-site/Hybrid
+  Link: https://www.impactpool.org/jobs/1210632
+
+- Monitoring and Evaluation Officer
+  Organization: CBM - Christian Blind Mission
+  Location: Rivers, Abuja
+  Posting date: Unknown
+  Application deadline: May 13, 2026 (13 days)
+  Contract type: Unknown
+  Scope: Unknown
+  Grade/level: Unknown
+  Remote: On-site/Hybrid
+  Link: https://www.impactpool.org/jobs/1210626
+
 - Data Engineering Intern
   Organization: UNDPPA-DPO - United Nations Departments of Political and Peacebuilding Affairs and Peace Operations
   Location: New York City
   Posting date: Unknown
-  Application deadline: May 14, 2026 (15 days)
+  Application deadline: May 14, 2026 (14 days)
   Contract type: Internship - Internship
   Scope: Unknown
   Grade/level: Unknown
@@ -225,7 +302,7 @@ None
   Organization: AIIB - Asian Infrastructure Investment Bank
   Location: Beijing
   Posting date: Unknown
-  Application deadline: May 16, 2026 (17 days)
+  Application deadline: May 16, 2026 (16 days)
   Contract type: Unknown
   Scope: Unknown
   Grade/level: Unknown
@@ -236,7 +313,7 @@ None
   Organization: UNCTAD - United Nations Conference on Trade and Development
   Location: Geneva
   Posting date: Unknown
-  Application deadline: May 12, 2026 (13 days)
+  Application deadline: May 12, 2026 (12 days)
   Contract type: Internship - Internship
   Scope: Unknown
   Grade/level: Unknown
@@ -247,7 +324,7 @@ None
   Organization: UNDGC - United Nations Department of Global Communications
   Location: Port of Spain
   Posting date: Unknown
-  Application deadline: May 15, 2026 (16 days)
+  Application deadline: May 15, 2026 (15 days)
   Contract type: Internship - Internship
   Scope: Unknown
   Grade/level: Unknown
@@ -258,7 +335,7 @@ None
   Organization: UNICEF - United Nations Children’s Fund
   Location: Lusaka
   Posting date: Unknown
-  Application deadline: May 04, 2026 (5 days)
+  Application deadline: May 04, 2026
   Contract type: Consultant - Contractors Agreement - Consultancy
   Scope: Unknown
   Grade/level: Unknown
@@ -269,7 +346,7 @@ None
   Organization: UNICEF - United Nations Children’s Fund
   Location: Syria
   Posting date: Unknown
-  Application deadline: May 12, 2026 (13 days)
+  Application deadline: May 12, 2026 (12 days)
   Contract type: Consultancy
   Scope: Unknown
   Grade/level: Unknown
@@ -280,7 +357,7 @@ None
   Organization: UNICEF - United Nations Children’s Fund
   Location: Rome
   Posting date: Unknown
-  Application deadline: May 04, 2026 (5 days)
+  Application deadline: May 04, 2026
   Contract type: Consultant - Contractors Agreement - Consultancy
   Scope: Unknown
   Grade/level: Unknown
@@ -291,7 +368,7 @@ None
   Organization: CHAI - Clinton Health Access Initiative
   Location: Bhopal
   Posting date: Unknown
-  Application deadline: May 28, 2026 (29 days)
+  Application deadline: May 28, 2026 (28 days)
   Contract type: Unknown
   Scope: Unknown
   Grade/level: Unknown
@@ -302,7 +379,7 @@ None
   Organization: FAO - Food and Agriculture Organization of the United Nations
   Location: Multiple locations
   Posting date: Unknown
-  Application deadline: May 19, 2026 (20 days)
+  Application deadline: May 19, 2026 (19 days)
   Contract type: Consultant - Contractors Agreement - Consultancy
   Scope: Unknown
   Grade/level: Unknown
@@ -313,7 +390,7 @@ None
   Organization: FAO - Food and Agriculture Organization of the United Nations
   Location: Jamaica
   Posting date: Unknown
-  Application deadline: May 26, 2026 (27 days)
+  Application deadline: May 26, 2026 (26 days)
   Contract type: Consultant - Contractors Agreement - Consultancy
   Scope: Unknown
   Grade/level: Unknown
@@ -324,7 +401,7 @@ None
   Organization: UNEP - United Nations Environment Programme
   Location: Bonn
   Posting date: Unknown
-  Application deadline: May 05, 2026 (6 days)
+  Application deadline: May 05, 2026 (5 days)
   Contract type: Unknown
   Scope: Unknown
   Grade/level: Unknown
@@ -335,227 +412,18 @@ None
   Organization: IDB - Inter-American Development Bank
   Location: Washington D.C.
   Posting date: Unknown
-  Application deadline: May 11, 2026 (12 days)
+  Application deadline: May 11, 2026 (11 days)
   Contract type: Unknown
   Scope: Unknown
   Grade/level: Unknown
   Remote: On-site/Hybrid
   Link: https://www.impactpool.org/jobs/1210342
 
-- Data Visualization Specialist Spatial Planning (Level A)
-  Organization: UNEP - United Nations Environment Programme
-  Location: Bonn
-  Posting date: Unknown
-  Application deadline: May 05, 2026 (6 days)
-  Contract type: Unknown
-  Scope: Unknown
-  Grade/level: Unknown
-  Remote: Remote
-  Link: https://www.impactpool.org/jobs/1210326
-
-- Project Analyst (Democratic Governance) (Open to internal and external applicants)
-  Organization: UNDP - United Nations Development Programme
-  Location: Suva, Yaren
-  Posting date: Unknown
-  Application deadline: May 13, 2026 (14 days)
-  Contract type: NPSA-9
-  Scope: Unknown
-  Grade/level: NPSA-9
-  Remote: On-site/Hybrid
-  Link: https://www.impactpool.org/jobs/1210321
-
-- Evaluation Consultant
-  Organization: IOM - International Organization for Migration
-  Location: Phnom Penh
-  Posting date: Unknown
-  Application deadline: May 04, 2026 (5 days)
-  Contract type: Unknown
-  Scope: Unknown
-  Grade/level: Unknown
-  Remote: On-site/Hybrid
-  Link: https://www.impactpool.org/jobs/1210314
-
-- Reporting and Analytics Officer (P)
-  Organization: IOM - International Organization for Migration
-  Location: Kabul
-  Posting date: Unknown
-  Application deadline: May 11, 2026 (12 days)
-  Contract type: International Professional
-  Scope: International
-  Grade/level: P-3
-  Remote: On-site/Hybrid
-  Link: https://www.impactpool.org/jobs/1210311
-
-- [GP] Investment Analyst (6404)
-  Organization: AIIB - Asian Infrastructure Investment Bank
-  Location: Beijing
-  Posting date: Unknown
-  Application deadline: Unknown
-  Contract type: Unknown
-  Scope: Unknown
-  Grade/level: Unknown
-  Remote: On-site/Hybrid
-  Link: https://www.impactpool.org/jobs/1210306
-
-- CONSULTANT EVALUATION FINALE DU PROJET " Appui au retour volontaire et au suivi des flux migratoires au Niger"
-  Organization: IOM - International Organization for Migration
-  Location: Niamey, Agadez
-  Posting date: Unknown
-  Application deadline: May 09, 2026 (10 days)
-  Contract type: Unknown
-  Scope: Unknown
-  Grade/level: Unknown
-  Remote: On-site/Hybrid
-  Link: https://www.impactpool.org/jobs/1210284
-
-- Evaluation Consultancy, (Internationals only), Office-based, #592635
-  Organization: UNICEF - United Nations Children’s Fund
-  Location: Bangkok
-  Posting date: Unknown
-  Application deadline: May 03, 2026
-  Contract type: Consultancy
-  Scope: Unknown
-  Grade/level: Unknown
-  Remote: On-site/Hybrid
-  Link: https://www.impactpool.org/jobs/1210264
-
-- Supporter Engagement & Data Support Consultant (National), Office-based, #592629
-  Organization: UNICEF - United Nations Children’s Fund
-  Location: Bangkok
-  Posting date: Unknown
-  Application deadline: May 03, 2026
-  Contract type: Consultant - Contractors Agreement - Consultancy
-  Scope: Unknown
-  Grade/level: Unknown
-  Remote: On-site/Hybrid
-  Link: https://www.impactpool.org/jobs/1210263
-
-- Internship - Child Data Analysis - Office of Strategy and Evidence - Florence, Italy - up to 6 months on-site
-  Organization: UNICEF - United Nations Children’s Fund
-  Location: Rome, Florence
-  Posting date: Unknown
-  Application deadline: May 10, 2026 (11 days)
-  Contract type: Internship - Internship
-  Scope: Unknown
-  Grade/level: Unknown
-  Remote: On-site/Hybrid
-  Link: https://www.impactpool.org/jobs/1210251
-
-- Statistics & Monitoring Manager, P-4, FT, WCARO Dakar, Senegal #134022
-  Organization: UNICEF - United Nations Children’s Fund
-  Location: Dakar
-  Posting date: Unknown
-  Application deadline: May 10, 2026 (11 days)
-  Contract type: International Professional
-  Scope: International
-  Grade/level: P-4
-  Remote: On-site/Hybrid
-  Link: https://www.impactpool.org/jobs/1210240
-
-- Mid-Level Data Analytics & Visualization Developer
-  Organization: UNV - United Nations Volunteers
-  Location: Madrid
-  Posting date: Unknown
-  Application deadline: May 11, 2026 (12 days)
-  Contract type: Unknown
-  Scope: Unknown
-  Grade/level: NOT
-  Remote: On-site/Hybrid
-  Link: https://www.impactpool.org/jobs/1210233
-
-- Software Engineer – Natural Language Search and AI Integration
-  Organization: EMBL - European Molecular Biology Laboratory
-  Location: Cambridgeshire
-  Posting date: Unknown
-  Application deadline: May 17, 2026 (18 days)
-  Contract type: Unknown
-  Scope: Unknown
-  Grade/level: Unknown
-  Remote: On-site/Hybrid
-  Link: https://www.impactpool.org/jobs/1210227
-
-- Internship - Evaluation of Fission Yield and Fission Neutron Data
-  Organization: IAEA - International Atomic Energy Agency
-  Location: Monaco, Seibersdorf, Vienna
-  Posting date: Unknown
-  Application deadline: May 04, 2026 (5 days)
-  Contract type: Internship - Internship
-  Scope: Unknown
-  Grade/level: Unknown
-  Remote: On-site/Hybrid
-  Link: https://www.impactpool.org/jobs/1210192
-
-- Nuclear Security Information Management Officer (Technical Lead)(P4)
-  Organization: IAEA - International Atomic Energy Agency
-  Location: Vienna
-  Posting date: Unknown
-  Application deadline: May 24, 2026 (25 days)
-  Contract type: International Professional
-  Scope: International
-  Grade/level: P-4
-  Remote: On-site/Hybrid
-  Link: https://www.impactpool.org/jobs/1210191
-
-- SECONDMENT - Chief Data Officer
-  Organization: Interpol
-  Location: Lyon
-  Posting date: Unknown
-  Application deadline: June 23, 2026 (about 2 months)
-  Contract type: Unknown
-  Scope: Unknown
-  Grade/level: Unknown
-  Remote: On-site/Hybrid
-  Link: https://www.impactpool.org/jobs/1210190
-
-- Product Analyst
-  Organization: World Bank Group
-  Location: Washington D.C.
-  Posting date: Unknown
-  Application deadline: May 11, 2026 (12 days)
-  Contract type: Unknown
-  Scope: Unknown
-  Grade/level: Unknown
-  Remote: On-site/Hybrid
-  Link: https://www.impactpool.org/jobs/1210174
-
-- Data Analytics Infrastructure Engineer (IT-DA-ASM-2026-95-LD)
-  Organization: CERN - European Organization for Nuclear Research
-  Location: Geneva
-  Posting date: Unknown
-  Application deadline: May 25, 2026 (26 days)
-  Contract type: Unknown
-  Scope: Unknown
-  Grade/level: Unknown
-  Remote: On-site/Hybrid
-  Link: https://www.impactpool.org/jobs/1210173
-
-- Technology for Disaster Risk Reduction Assessment Intern
-  Organization: UNDRR - United Nations Office for Disaster Risk Reduction
-  Location: Panamá
-  Posting date: Unknown
-  Application deadline: May 16, 2026 (17 days)
-  Contract type: Internship - Internship
-  Scope: Unknown
-  Grade/level: Unknown
-  Remote: Remote
-  Link: https://www.impactpool.org/jobs/1210157
-
-- Support for the development of the Regional Assessment Report 2027 - Intern
-  Organization: UNDRR - United Nations Office for Disaster Risk Reduction
-  Location: Panamá
-  Posting date: Unknown
-  Application deadline: May 16, 2026 (17 days)
-  Contract type: Internship - Internship
-  Scope: Unknown
-  Grade/level: Unknown
-  Remote: On-site/Hybrid
-  Link: https://www.impactpool.org/jobs/1210155
-
 - Data Visualization & Analytics Specialist
   Organization: IsDB - Islamic Development Bank
   Location: Jeddah
   Posting date: Unknown
-  Application deadline: May 14, 2026 (15 days)
+  Application deadline: May 14, 2026 (14 days)
   Contract type: Unknown
   Scope: Unknown
   Grade/level: Unknown
@@ -577,18 +445,29 @@ None
   Organization: IAEA - International Atomic Energy Agency
   Location: Vienna
   Posting date: Unknown
-  Application deadline: May 04, 2026 (5 days)
+  Application deadline: May 04, 2026
   Contract type: Internship - Internship
   Scope: Unknown
   Grade/level: Unknown
   Remote: On-site/Hybrid
   Link: https://www.impactpool.org/jobs/1207652
 
+- Data Specialist
+  Organization: IRC - International Rescue Committee
+  Location: El Salvador, San Salvador, Bogotá
+  Posting date: Unknown
+  Application deadline: Unknown
+  Contract type: Unknown
+  Scope: Unknown
+  Grade/level: Unknown
+  Remote: Remote
+  Link: https://www.impactpool.org/jobs/1204084
+
 - Data & Innovation Assistant (Malaysian Nationals Only - Open to All Applicants)
   Organization: UNDP - United Nations Development Programme
   Location: Putrajaya
   Posting date: Unknown
-  Application deadline: May 06, 2026 (7 days)
+  Application deadline: May 06, 2026 (6 days)
   Contract type: NPSA-4
   Scope: Unknown
   Grade/level: NPSA-4
@@ -599,29 +478,40 @@ None
   Organization: UNRWA - United Nations Relief and Works Agency for Palestinian Refugees
   Location: Jordan
   Posting date: Unknown
-  Application deadline: May 04, 2026 (5 days)
+  Application deadline: May 04, 2026
   Contract type: International Professional
   Scope: International
   Grade/level: P-3
   Remote: On-site/Hybrid
   Link: https://www.impactpool.org/jobs/1207638
 
-- Data Specialist
+- Summer 2026: Data Automation Intern (Unpaid)
   Organization: IRC - International Rescue Committee
-  Location: El Salvador, Bogotá, San Salvador
+  Location: United States of America
   Posting date: Unknown
-  Application deadline: Unknown
-  Contract type: Unknown
+  Application deadline: May 01, 2026
+  Contract type: Internship - Internship
   Scope: Unknown
   Grade/level: Unknown
   Remote: Remote
-  Link: https://www.impactpool.org/jobs/1204084
+  Link: https://www.impactpool.org/jobs/1203971
+
+- Internship - Child Data Analysis - Office of Strategy and Evidence - Florence, Italy - up to 6 months on-site
+  Organization: UNICEF - United Nations Children’s Fund
+  Location: Rome, Florence
+  Posting date: Unknown
+  Application deadline: May 10, 2026 (10 days)
+  Contract type: Internship - Internship
+  Scope: Unknown
+  Grade/level: Unknown
+  Remote: On-site/Hybrid
+  Link: https://www.impactpool.org/jobs/1210251
 
 - Data Architect / Knowledge Engineer – Euro-BioImaging (AI4Access)
   Organization: EMBL - European Molecular Biology Laboratory
   Location: Rome, Heidelberg
   Posting date: Unknown
-  Application deadline: May 15, 2026 (16 days)
+  Application deadline: May 15, 2026 (15 days)
   Contract type: Unknown
   Scope: Unknown
   Grade/level: Unknown
@@ -632,7 +522,7 @@ None
   Organization: WTO - World Trade Organization
   Location: Geneva
   Posting date: Unknown
-  Application deadline: May 08, 2026 (9 days)
+  Application deadline: May 08, 2026 (8 days)
   Contract type: Unknown
   Scope: International
   Grade/level: Unknown
@@ -650,22 +540,11 @@ None
   Remote: On-site/Hybrid
   Link: https://www.impactpool.org/jobs/1208151
 
-- Summer 2026: Data Automation Intern (Unpaid)
-  Organization: IRC - International Rescue Committee
-  Location: United States of America
-  Posting date: Unknown
-  Application deadline: May 01, 2026
-  Contract type: Internship - Internship
-  Scope: Unknown
-  Grade/level: Unknown
-  Remote: Remote
-  Link: https://www.impactpool.org/jobs/1203971
-
 - Data Governance and Analytics Senior Specialist / Specialist
   Organization: IDB - Inter-American Development Bank
   Location: Washington D.C.
   Posting date: Unknown
-  Application deadline: May 07, 2026 (8 days)
+  Application deadline: May 07, 2026 (7 days)
   Contract type: Unknown
   Scope: Unknown
   Grade/level: Unknown
@@ -676,7 +555,7 @@ None
   Organization: NRC - Norwegian Refugee Council
   Location: Mozambique
   Posting date: Unknown
-  Application deadline: May 05, 2026 (6 days)
+  Application deadline: May 05, 2026 (5 days)
   Contract type: Unknown
   Scope: Unknown
   Grade/level: Unknown
@@ -698,12 +577,34 @@ None
   Organization: IMF - International Monetary Fund
   Location: Washington D.C.
   Posting date: Unknown
-  Application deadline: May 06, 2026 (7 days)
+  Application deadline: May 06, 2026 (6 days)
   Contract type: Unknown
   Scope: Unknown
   Grade/level: Unknown
   Remote: On-site/Hybrid
   Link: https://www.impactpool.org/jobs/1209115
+
+- Mid-Level Data Analytics & Visualization Developer
+  Organization: UNV - United Nations Volunteers
+  Location: Madrid
+  Posting date: Unknown
+  Application deadline: May 11, 2026 (11 days)
+  Contract type: Unknown
+  Scope: Unknown
+  Grade/level: NOT
+  Remote: On-site/Hybrid
+  Link: https://www.impactpool.org/jobs/1210233
+
+- Reporting and Analytics Officer (P)
+  Organization: IOM - International Organization for Migration
+  Location: Kabul
+  Posting date: Unknown
+  Application deadline: May 11, 2026 (11 days)
+  Contract type: International Professional
+  Scope: International
+  Grade/level: P-3
+  Remote: On-site/Hybrid
+  Link: https://www.impactpool.org/jobs/1210311
 
 - Business Analyst
   Organization: IRC - International Rescue Committee
@@ -716,22 +617,44 @@ None
   Remote: Remote
   Link: https://www.impactpool.org/jobs/1209543
 
+- SECONDMENT - Chief Data Officer
+  Organization: Interpol
+  Location: Lyon
+  Posting date: Unknown
+  Application deadline: June 23, 2026 (about 2 months)
+  Contract type: Unknown
+  Scope: Unknown
+  Grade/level: Unknown
+  Remote: On-site/Hybrid
+  Link: https://www.impactpool.org/jobs/1210190
+
 - Senior Evaluation Specialist
   Organization: ADB - Asian Development Bank
   Location: Manila
   Posting date: Unknown
-  Application deadline: May 04, 2026 (5 days)
+  Application deadline: May 04, 2026
   Contract type: Unknown
   Scope: International
   Grade/level: Unknown
   Remote: On-site/Hybrid
   Link: https://www.impactpool.org/jobs/1208379
 
+- Oficial MEAL
+  Organization: IRC - International Rescue Committee
+  Location: El Salvador, San Salvador
+  Posting date: Unknown
+  Application deadline: Unknown
+  Contract type: Unknown
+  Scope: Unknown
+  Grade/level: Unknown
+  Remote: On-site/Hybrid
+  Link: https://www.impactpool.org/jobs/1206277
+
 - Data Engineer
   Organization: EMBL - European Molecular Biology Laboratory
   Location: Cambridgeshire
   Posting date: Unknown
-  Application deadline: May 06, 2026 (7 days)
+  Application deadline: May 06, 2026 (6 days)
   Contract type: Unknown
   Scope: Unknown
   Grade/level: Unknown
@@ -753,34 +676,56 @@ None
   Organization: UNICEF - United Nations Children’s Fund
   Location: Florence, Rome
   Posting date: Unknown
-  Application deadline: May 07, 2026 (8 days)
+  Application deadline: May 07, 2026 (7 days)
   Contract type: Consultant - Contractors Agreement - Consultancy
   Scope: Unknown
   Grade/level: Unknown
   Remote: Remote
   Link: https://www.impactpool.org/jobs/1209533
 
-- Oficial MEAL
-  Organization: IRC - International Rescue Committee
-  Location: El Salvador, San Salvador
+- Tech Lead Analyst, Software Engineering and Data Science (Open to Internal and External applicants)
+  Organization: UNDP - United Nations Development Programme
+  Location: Brazil, Rio de Janeiro
   Posting date: Unknown
-  Application deadline: Unknown
-  Contract type: Unknown
+  Application deadline: May 07, 2026 (7 days)
+  Contract type: NPSA-9
   Scope: Unknown
-  Grade/level: Unknown
+  Grade/level: NPSA-9
   Remote: On-site/Hybrid
-  Link: https://www.impactpool.org/jobs/1206277
+  Link: https://www.impactpool.org/jobs/1209242
 
 - Lead Data Quality Engineer (Azure Fabric)
   Organization: EBRD - European Bank for Reconstruction and Development
   Location: Sofia
   Posting date: Unknown
-  Application deadline: May 11, 2026 (12 days)
+  Application deadline: May 11, 2026 (11 days)
   Contract type: Unknown
   Scope: Unknown
   Grade/level: Unknown
   Remote: On-site/Hybrid
   Link: https://www.impactpool.org/jobs/1179243
+
+- Information Management Analyst, NPSA-9, DS-Kyiv, GERP, National position
+  Organization: UNDP - United Nations Development Programme
+  Location: Kyiv
+  Posting date: Unknown
+  Application deadline: April 30, 2026
+  Contract type: NPSA-9
+  Scope: Unknown
+  Grade/level: NPSA-9
+  Remote: On-site/Hybrid
+  Link: https://www.impactpool.org/jobs/646535
+
+- Data Analytics Infrastructure Engineer (IT-DA-ASM-2026-95-LD)
+  Organization: CERN - European Organization for Nuclear Research
+  Location: Geneva
+  Posting date: Unknown
+  Application deadline: May 25, 2026 (25 days)
+  Contract type: Unknown
+  Scope: Unknown
+  Grade/level: Unknown
+  Remote: On-site/Hybrid
+  Link: https://www.impactpool.org/jobs/1210173
 
 - Oficial Senior Meal
   Organization: IRC - International Rescue Committee
@@ -793,16 +738,16 @@ None
   Remote: On-site/Hybrid
   Link: https://www.impactpool.org/jobs/1209363
 
-- Information Management Analyst, NPSA-9, DS-Kyiv, GERP, National position
-  Organization: UNDP - United Nations Development Programme
-  Location: Kyiv
+- Oficial Senior MEAL
+  Organization: IRC - International Rescue Committee
+  Location: Bogotá
   Posting date: Unknown
-  Application deadline: April 30, 2026
-  Contract type: NPSA-9
+  Application deadline: Unknown
+  Contract type: Unknown
   Scope: Unknown
-  Grade/level: NPSA-9
+  Grade/level: Unknown
   Remote: On-site/Hybrid
-  Link: https://www.impactpool.org/jobs/646535
+  Link: https://www.impactpool.org/jobs/1209364
 
 - Associate Information Management Officer - GIS
   Organization: UNV - United Nations Volunteers
@@ -819,23 +764,12 @@ None
   Organization: UNICEF - United Nations Children’s Fund
   Location: Boa Vista
   Posting date: Unknown
-  Application deadline: May 11, 2026 (12 days)
+  Application deadline: May 11, 2026 (11 days)
   Contract type: Consultant - Contractors Agreement - Consultancy
   Scope: Unknown
   Grade/level: Unknown
   Remote: Remote
   Link: https://www.impactpool.org/jobs/1209534
-
-- Oficial Senior MEAL
-  Organization: IRC - International Rescue Committee
-  Location: Bogotá
-  Posting date: Unknown
-  Application deadline: Unknown
-  Contract type: Unknown
-  Scope: Unknown
-  Grade/level: Unknown
-  Remote: On-site/Hybrid
-  Link: https://www.impactpool.org/jobs/1209364
 
 - Senior Backend & Data Engineer
   Organization: UNOPS - United Nations Office for Project Services
@@ -863,7 +797,7 @@ None
   Organization: IOM - International Organization for Migration
   Location: Washington D.C.
   Posting date: Unknown
-  Application deadline: May 07, 2026 (8 days)
+  Application deadline: May 07, 2026 (7 days)
   Contract type: International Professional
   Scope: International
   Grade/level: P-3
@@ -885,7 +819,7 @@ None
   Organization: UNICEF - United Nations Children’s Fund
   Location: Bangkok
   Posting date: Unknown
-  Application deadline: May 04, 2026 (5 days)
+  Application deadline: May 04, 2026
   Contract type: Consultant - Contractors Agreement - Consultancy
   Scope: Unknown
   Grade/level: Unknown
@@ -896,7 +830,7 @@ None
   Organization: UNDP - United Nations Development Programme
   Location: New York City
   Posting date: Unknown
-  Application deadline: May 10, 2026 (11 days)
+  Application deadline: May 10, 2026 (10 days)
   Contract type: Internship - Internship
   Scope: Unknown
   Grade/level: Unknown
@@ -940,7 +874,7 @@ None
   Organization: EU CoR - Committee of the Regions
   Location: Brussels
   Posting date: Unknown
-  Application deadline: May 11, 2026 (12 days)
+  Application deadline: May 11, 2026 (11 days)
   Contract type: Unknown
   Scope: Unknown
   Grade/level: Unknown
@@ -951,7 +885,7 @@ None
   Organization: UNDRR - United Nations Office for Disaster Risk Reduction
   Location: Bangkok
   Posting date: Unknown
-  Application deadline: May 11, 2026 (12 days)
+  Application deadline: May 11, 2026 (11 days)
   Contract type: Internship - Internship
   Scope: Unknown
   Grade/level: Unknown
@@ -962,7 +896,7 @@ None
   Organization: ECMWF - European Centre for Medium-Range Weather Forecasts
   Location: Bonn
   Posting date: Unknown
-  Application deadline: May 04, 2026 (5 days)
+  Application deadline: May 04, 2026
   Contract type: Unknown
   Scope: Unknown
   Grade/level: Unknown
@@ -973,34 +907,34 @@ None
   Organization: UNOPS - United Nations Office for Project Services
   Location: Copenhagen
   Posting date: Unknown
-  Application deadline: May 08, 2026 (9 days)
+  Application deadline: May 08, 2026 (8 days)
   Contract type: Internship - Internship
   Scope: Unknown
   Grade/level: Unknown
   Remote: On-site/Hybrid
   Link: https://www.impactpool.org/jobs/1209743
 
-- MEAL Senior Coordinator
-  Organization: IRC - International Rescue Committee
-  Location: Port Sudan
+- Internship - Human Resources - Strategic Workforce Planning and HR Analytics
+  Organization: ICC - International Criminal Court
+  Location: The Hague
   Posting date: Unknown
-  Application deadline: Unknown
-  Contract type: Unknown
+  Application deadline: December 31, 2026 (8 months)
+  Contract type: Internship - Internship
   Scope: Unknown
   Grade/level: Unknown
   Remote: On-site/Hybrid
-  Link: https://www.impactpool.org/jobs/1208923
+  Link: https://www.impactpool.org/jobs/1192439
 
-- Research Analyst I
-  Organization: IFPRI - International Food Policy Research Institute
-  Location: Port Moresby
+- Statistics & Monitoring Manager, P-4, FT, WCARO Dakar, Senegal #134022
+  Organization: UNICEF - United Nations Children’s Fund
+  Location: Dakar
   Posting date: Unknown
-  Application deadline: Unknown
-  Contract type: Unknown
-  Scope: Unknown
-  Grade/level: Unknown
+  Application deadline: May 10, 2026 (10 days)
+  Contract type: International Professional
+  Scope: International
+  Grade/level: P-4
   Remote: On-site/Hybrid
-  Link: https://www.impactpool.org/jobs/1191244
+  Link: https://www.impactpool.org/jobs/1210240
 
 - VAM Officer (Geospatial data analysis)
   Organization: WFP - World Food Programme
@@ -1017,7 +951,7 @@ None
   Organization: IOM - International Organization for Migration
   Location: Bishkek
   Posting date: Unknown
-  Application deadline: May 17, 2026 (18 days)
+  Application deadline: May 17, 2026 (17 days)
   Contract type: Unknown
   Scope: Unknown
   Grade/level: Unknown
@@ -1035,6 +969,17 @@ None
   Remote: On-site/Hybrid
   Link: https://www.impactpool.org/jobs/1210075
 
+- Research Analyst I
+  Organization: IFPRI - International Food Policy Research Institute
+  Location: Port Moresby
+  Posting date: Unknown
+  Application deadline: Unknown
+  Contract type: Unknown
+  Scope: Unknown
+  Grade/level: Unknown
+  Remote: On-site/Hybrid
+  Link: https://www.impactpool.org/jobs/1191244
+
 - International Consultant — Research on Strengthening Migration Data Governance in Mongolia Through Migrant-Centred Research
   Organization: IOM - International Organization for Migration
   Location: Ulaanbaatar
@@ -1045,6 +990,28 @@ None
   Grade/level: Unknown
   Remote: Remote
   Link: https://www.impactpool.org/jobs/1209145
+
+- Data Visualization Specialist Spatial Planning (Level A)
+  Organization: UNEP - United Nations Environment Programme
+  Location: Bonn
+  Posting date: Unknown
+  Application deadline: May 05, 2026 (5 days)
+  Contract type: Unknown
+  Scope: Unknown
+  Grade/level: Unknown
+  Remote: Remote
+  Link: https://www.impactpool.org/jobs/1210326
+
+- MEAL Senior Coordinator
+  Organization: IRC - International Rescue Committee
+  Location: Port Sudan
+  Posting date: Unknown
+  Application deadline: Unknown
+  Contract type: Unknown
+  Scope: Unknown
+  Grade/level: Unknown
+  Remote: On-site/Hybrid
+  Link: https://www.impactpool.org/jobs/1208923
 
 - Specialist - Data Protection
   Organization: EU Careers by EPSO
@@ -1061,56 +1028,34 @@ None
   Organization: IRC - International Rescue Committee
   Location: Huehuetenango, Guatemala City
   Posting date: Unknown
-  Application deadline: May 29, 2026 (about 1 month)
+  Application deadline: May 29, 2026 (29 days)
   Contract type: Unknown
   Scope: Unknown
   Grade/level: Unknown
   Remote: On-site/Hybrid
   Link: https://www.impactpool.org/jobs/1209891
 
-- Data Centre Network Engineer
-  Organization: EMBL - European Molecular Biology Laboratory
-  Location: Cambridgeshire
-  Posting date: Unknown
-  Application deadline: May 20, 2026 (21 days)
-  Contract type: Unknown
-  Scope: Unknown
-  Grade/level: Unknown
-  Remote: On-site/Hybrid
-  Link: https://www.impactpool.org/jobs/1209700
-
-- Social Innovation Analyst (Open to Tier 1 & 2 applicants)
-  Organization: UNDP - United Nations Development Programme
-  Location: Manila
-  Posting date: Unknown
-  Application deadline: May 01, 2026
-  Contract type: NPSA-9
-  Scope: Unknown
-  Grade/level: NPSA-9
-  Remote: On-site/Hybrid
-  Link: https://www.impactpool.org/jobs/649178
-
-- AI Operations Manager
-  Organization: IRC - International Rescue Committee
-  Location: New York City
-  Posting date: Unknown
-  Application deadline: Unknown
-  Contract type: Unknown
-  Scope: Unknown
-  Grade/level: Unknown
-  Remote: Remote
-  Link: https://www.impactpool.org/jobs/1205760
-
 - Intern, AI engineer
   Organization: EBRD - European Bank for Reconstruction and Development
   Location: Sofia
   Posting date: Unknown
-  Application deadline: May 07, 2026 (8 days)
+  Application deadline: May 07, 2026 (7 days)
   Contract type: Internship - Internship
   Scope: Unknown
   Grade/level: Unknown
   Remote: On-site/Hybrid
   Link: https://www.impactpool.org/jobs/1206188
+
+- Internship â AI/ML Based Text Analytics for Knowledge Management
+  Organization: IAEA - International Atomic Energy Agency
+  Location: Vienna
+  Posting date: Unknown
+  Application deadline: May 08, 2026 (8 days)
+  Contract type: Internship - Internship
+  Scope: Unknown
+  Grade/level: Unknown
+  Remote: On-site/Hybrid
+  Link: https://www.impactpool.org/jobs/1208462
 
 - Senior Associate, Artificial Intelligence (AI)
   Organization: CHAI - Clinton Health Access Initiative
@@ -1127,29 +1072,29 @@ None
   Organization: EMBL - European Molecular Biology Laboratory
   Location: Heidelberg
   Posting date: Unknown
-  Application deadline: May 28, 2026 (29 days)
+  Application deadline: May 28, 2026 (28 days)
   Contract type: Unknown
   Scope: Unknown
   Grade/level: Unknown
   Remote: On-site/Hybrid
   Link: https://www.impactpool.org/jobs/1208466
 
-- Internship â AI/ML Based Text Analytics for Knowledge Management
-  Organization: IAEA - International Atomic Energy Agency
-  Location: Vienna
+- AI Operations Manager
+  Organization: IRC - International Rescue Committee
+  Location: New York City
   Posting date: Unknown
-  Application deadline: May 09, 2026 (10 days)
-  Contract type: Internship - Internship
+  Application deadline: Unknown
+  Contract type: Unknown
   Scope: Unknown
   Grade/level: Unknown
-  Remote: On-site/Hybrid
-  Link: https://www.impactpool.org/jobs/1208462
+  Remote: Remote
+  Link: https://www.impactpool.org/jobs/1205760
 
 - ​Public Information Intern for Digital Analytics & Web Strategy
   Organization: UNDRR - United Nations Office for Disaster Risk Reduction
   Location: Bonn, Geneva
   Posting date: Unknown
-  Application deadline: May 11, 2026 (12 days)
+  Application deadline: May 11, 2026 (11 days)
   Contract type: Internship - Internship
   Scope: Unknown
   Grade/level: Unknown
@@ -1160,7 +1105,7 @@ None
   Organization: WTO - World Trade Organization
   Location: Geneva
   Posting date: Unknown
-  Application deadline: May 18, 2026 (19 days)
+  Application deadline: May 18, 2026 (18 days)
   Contract type: Unknown
   Scope: International
   Grade/level: Unknown
@@ -1178,11 +1123,22 @@ None
   Remote: On-site/Hybrid
   Link: https://www.impactpool.org/jobs/1208986
 
+- E T Temporary - Junior Service Delivery Analyst
+  Organization: World Bank Group
+  Location: Kyiv
+  Posting date: Unknown
+  Application deadline: May 06, 2026 (6 days)
+  Contract type: Temporary Appointment
+  Scope: Unknown
+  Grade/level: Unknown
+  Remote: On-site/Hybrid
+  Link: https://www.impactpool.org/jobs/1207555
+
 - Team Assistant at EMBL AI and Data Science Centre
   Organization: EMBL - European Molecular Biology Laboratory
   Location: Heidelberg
   Posting date: Unknown
-  Application deadline: May 14, 2026 (15 days)
+  Application deadline: May 14, 2026 (14 days)
   Contract type: Unknown
   Scope: Unknown
   Grade/level: Unknown
@@ -1193,18 +1149,29 @@ None
   Organization: ECMWF - European Centre for Medium-Range Weather Forecasts
   Location: Bonn
   Posting date: Unknown
-  Application deadline: May 04, 2026 (5 days)
+  Application deadline: May 04, 2026
   Contract type: Unknown
   Scope: Unknown
   Grade/level: Unknown
   Remote: On-site/Hybrid
   Link: https://www.impactpool.org/jobs/1208098
 
+- Software Engineer – Natural Language Search and AI Integration
+  Organization: EMBL - European Molecular Biology Laboratory
+  Location: Cambridgeshire
+  Posting date: Unknown
+  Application deadline: May 17, 2026 (17 days)
+  Contract type: Unknown
+  Scope: Unknown
+  Grade/level: Unknown
+  Remote: On-site/Hybrid
+  Link: https://www.impactpool.org/jobs/1210227
+
 - Information Management Intern: UX Design
   Organization: UNDRR - United Nations Office for Disaster Risk Reduction
   Location: Bangkok
   Posting date: Unknown
-  Application deadline: May 11, 2026 (12 days)
+  Application deadline: May 11, 2026 (11 days)
   Contract type: Internship - Internship
   Scope: Unknown
   Grade/level: Unknown
@@ -1215,7 +1182,7 @@ None
   Organization: UNDMSPC - Department of Management Strategy, Policy and Compliance
   Location: New York City
   Posting date: Unknown
-  Application deadline: May 11, 2026 (12 days)
+  Application deadline: May 11, 2026 (11 days)
   Contract type: Unknown
   Scope: Unknown
   Grade/level: Unknown
@@ -1244,11 +1211,22 @@ None
   Remote: Remote
   Link: https://www.impactpool.org/jobs/1208593
 
+- Social Innovation Analyst (Open to Tier 1 & 2 applicants)
+  Organization: UNDP - United Nations Development Programme
+  Location: Manila
+  Posting date: Unknown
+  Application deadline: May 01, 2026
+  Contract type: NPSA-9
+  Scope: Unknown
+  Grade/level: NPSA-9
+  Remote: On-site/Hybrid
+  Link: https://www.impactpool.org/jobs/649178
+
 - Systemic Risk Specialist / Senior Associate - Quantitative Analysis
   Organization: IDB - Inter-American Development Bank
   Location: Washington D.C.
   Posting date: Unknown
-  Application deadline: May 04, 2026 (5 days)
+  Application deadline: May 04, 2026
   Contract type: Unknown
   Scope: Unknown
   Grade/level: Unknown
@@ -1259,7 +1237,7 @@ None
   Organization: OECD - Organisation for Economic Co-operation and Development
   Location: Paris
   Posting date: Unknown
-  Application deadline: May 13, 2026 (14 days)
+  Application deadline: May 13, 2026 (13 days)
   Contract type: Unknown
   Scope: Unknown
   Grade/level: Unknown
@@ -1270,7 +1248,7 @@ None
   Organization: EBRD - European Bank for Reconstruction and Development
   Location: Tashkent
   Posting date: Unknown
-  Application deadline: May 06, 2026 (7 days)
+  Application deadline: May 06, 2026 (6 days)
   Contract type: Unknown
   Scope: Unknown
   Grade/level: Unknown
@@ -1281,23 +1259,12 @@ None
   Organization: UNV - United Nations Volunteers
   Location: Buenos Aires
   Posting date: Unknown
-  Application deadline: May 10, 2026 (11 days)
+  Application deadline: May 10, 2026 (10 days)
   Contract type: Unknown
   Scope: Unknown
   Grade/level: NON
   Remote: On-site/Hybrid
   Link: https://www.impactpool.org/jobs/1208763
-
-- Analyst (LOGFAS)
-  Organization: NATO - North Atlantic Treaty Organization
-  Location: Germany-Ulm
-  Posting date: Unknown
-  Application deadline: May 13, 2026 (14 days)
-  Contract type: Unknown
-  Scope: Unknown
-  Grade/level: Unknown
-  Remote: On-site/Hybrid
-  Link: https://www.impactpool.org/jobs/1209683
 
 - Policy Analyst (Open to All Applicants)
   Organization: UNDP - United Nations Development Programme
@@ -1314,7 +1281,7 @@ None
   Organization: UNOPS - United Nations Office for Project Services
   Location: Damascus
   Posting date: Unknown
-  Application deadline: May 05, 2026 (6 days)
+  Application deadline: May 05, 2026 (5 days)
   Contract type: Unknown
   Scope: Unknown
   Grade/level: ICS08
@@ -1325,18 +1292,51 @@ None
   Organization: FAO - Food and Agriculture Organization of the United Nations
   Location: Beirut
   Posting date: Unknown
-  Application deadline: May 06, 2026 (7 days)
+  Application deadline: May 06, 2026 (6 days)
   Contract type: Consultant - Contractors Agreement - Consultancy
   Scope: Unknown
   Grade/level: Unknown
   Remote: On-site/Hybrid
   Link: https://www.impactpool.org/jobs/1209316
 
+- Analyst (LOGFAS)
+  Organization: NATO - North Atlantic Treaty Organization
+  Location: Germany-Ulm
+  Posting date: Unknown
+  Application deadline: May 13, 2026 (13 days)
+  Contract type: Unknown
+  Scope: Unknown
+  Grade/level: Unknown
+  Remote: On-site/Hybrid
+  Link: https://www.impactpool.org/jobs/1209683
+
+- Product Analyst
+  Organization: World Bank Group
+  Location: Washington D.C.
+  Posting date: Unknown
+  Application deadline: May 11, 2026 (11 days)
+  Contract type: Unknown
+  Scope: Unknown
+  Grade/level: Unknown
+  Remote: On-site/Hybrid
+  Link: https://www.impactpool.org/jobs/1210174
+
+- TEMPORARY POST - Senior Analyst Russian Land Domain
+  Organization: NATO - North Atlantic Treaty Organization
+  Location: Mons
+  Posting date: Unknown
+  Application deadline: May 04, 2026
+  Contract type: Unknown
+  Scope: Unknown
+  Grade/level: Unknown
+  Remote: On-site/Hybrid
+  Link: https://www.impactpool.org/jobs/1209657
+
 - Climate Investment Analyst - Department of the Eastern Europe, Central Asia and the Middle East Region (DECM)
   Organization: GCF - Green Climate Fund
   Location: Incheon
   Posting date: Unknown
-  Application deadline: May 04, 2026 (5 days)
+  Application deadline: May 04, 2026
   Contract type: Unknown
   Scope: Unknown
   Grade/level: Unknown
@@ -1347,7 +1347,7 @@ None
   Organization: UNOPS - United Nations Office for Project Services
   Location: Copenhagen
   Posting date: Unknown
-  Application deadline: May 06, 2026 (7 days)
+  Application deadline: May 06, 2026 (6 days)
   Contract type: Unknown
   Scope: Unknown
   Grade/level: ICS09
@@ -1380,7 +1380,7 @@ None
   Organization: UNDP - United Nations Development Programme
   Location: Lviv, Kyiv
   Posting date: Unknown
-  Application deadline: May 09, 2026 (10 days)
+  Application deadline: May 09, 2026 (9 days)
   Contract type: NPSA-9
   Scope: Unknown
   Grade/level: NPSA-9
@@ -1391,29 +1391,29 @@ None
   Organization: OECD - Organisation for Economic Co-operation and Development
   Location: Paris
   Posting date: Unknown
-  Application deadline: May 10, 2026 (11 days)
+  Application deadline: May 10, 2026 (10 days)
   Contract type: Unknown
   Scope: Unknown
   Grade/level: Unknown
   Remote: On-site/Hybrid
   Link: https://www.impactpool.org/jobs/1208801
 
-- TEMPORARY POST - Senior Analyst Russian Land Domain
-  Organization: NATO - North Atlantic Treaty Organization
-  Location: Mons
+- [GP] Investment Analyst (6404)
+  Organization: AIIB - Asian Infrastructure Investment Bank
+  Location: Beijing
   Posting date: Unknown
-  Application deadline: May 04, 2026 (5 days)
+  Application deadline: Unknown
   Contract type: Unknown
   Scope: Unknown
   Grade/level: Unknown
   Remote: On-site/Hybrid
-  Link: https://www.impactpool.org/jobs/1209657
+  Link: https://www.impactpool.org/jobs/1210306
 
 - Investment Analyst
   Organization: World Bank Group
   Location: Tokyo
   Posting date: Unknown
-  Application deadline: May 07, 2026 (8 days)
+  Application deadline: May 07, 2026 (7 days)
   Contract type: Unknown
   Scope: Unknown
   Grade/level: Unknown
@@ -1431,17 +1431,6 @@ None
   Remote: On-site/Hybrid
   Link: https://www.impactpool.org/jobs/1208448
 
-- Analyst (Financial Management Policy)
-  Organization: NATO - North Atlantic Treaty Organization
-  Location: Mons
-  Posting date: Unknown
-  Application deadline: May 04, 2026 (5 days)
-  Contract type: Unknown
-  Scope: Unknown
-  Grade/level: Unknown
-  Remote: On-site/Hybrid
-  Link: https://www.impactpool.org/jobs/1209651
-
 - Education Monitoring & Evaluation Analyst (Office Based) [Open to Tiers 1 and 2]
   Organization: UNDP - United Nations Development Programme
   Location: Santo Domingo
@@ -1457,7 +1446,7 @@ None
   Organization: ECB - European Central Bank
   Location: Frankfurt
   Posting date: Unknown
-  Application deadline: May 04, 2026 (5 days)
+  Application deadline: May 04, 2026
   Contract type: Unknown
   Scope: Unknown
   Grade/level: Unknown
@@ -1479,7 +1468,7 @@ None
   Organization: UNOPS - United Nations Office for Project Services
   Location: Kinshasa
   Posting date: Unknown
-  Application deadline: May 07, 2026 (8 days)
+  Application deadline: May 07, 2026 (7 days)
   Contract type: Unknown
   Scope: Unknown
   Grade/level: ICS08
@@ -1490,7 +1479,7 @@ None
   Organization: UNDP - United Nations Development Programme
   Location: New Delhi
   Posting date: Unknown
-  Application deadline: May 11, 2026 (12 days)
+  Application deadline: May 11, 2026 (11 days)
   Contract type: NPSA-8
   Scope: Unknown
   Grade/level: NPSA-8
@@ -1534,12 +1523,23 @@ None
   Organization: UNDP - United Nations Development Programme
   Location: Bangkok, Kuala Lumpur
   Posting date: Unknown
-  Application deadline: May 05, 2026 (6 days)
+  Application deadline: May 05, 2026 (5 days)
   Contract type: IPSA-9
   Scope: Unknown
   Grade/level: IPSA-9
   Remote: On-site/Hybrid
   Link: https://www.impactpool.org/jobs/645861
+
+- Analyst (Financial Management Policy)
+  Organization: NATO - North Atlantic Treaty Organization
+  Location: Mons
+  Posting date: Unknown
+  Application deadline: May 04, 2026
+  Contract type: Unknown
+  Scope: Unknown
+  Grade/level: Unknown
+  Remote: On-site/Hybrid
+  Link: https://www.impactpool.org/jobs/1209651
 
 - Communications Analyst
   Organization: UNDP - United Nations Development Programme
@@ -1563,17 +1563,6 @@ None
   Remote: On-site/Hybrid
   Link: https://www.impactpool.org/jobs/648760
 
-- Internship - Victims and Witnesses Section - Analysis Unit
-  Organization: ICC - International Criminal Court
-  Location: The Hague
-  Posting date: Unknown
-  Application deadline: December 31, 2026 (8 months)
-  Contract type: Internship - Internship
-  Scope: Unknown
-  Grade/level: Unknown
-  Remote: On-site/Hybrid
-  Link: https://www.impactpool.org/jobs/1192461
-
 - Programme Analyst (Social Work)
   Organization: UNHABITAT - United Nations Human Settlements Programme
   Location: Rio de Janeiro, São Gonçalo, Brazil
@@ -1589,7 +1578,7 @@ None
   Organization: UNDP - United Nations Development Programme
   Location: Amman
   Posting date: Unknown
-  Application deadline: May 04, 2026 (5 days)
+  Application deadline: May 04, 2026
   Contract type: IPSA-9
   Scope: Unknown
   Grade/level: IPSA-9
@@ -1622,7 +1611,7 @@ None
   Organization: DRC - Danish Refugee Council
   Location: Adré
   Posting date: Unknown
-  Application deadline: May 06, 2026 (7 days)
+  Application deadline: May 06, 2026 (6 days)
   Contract type: Unknown
   Scope: Unknown
   Grade/level: Unknown
@@ -1633,7 +1622,7 @@ None
   Organization: UNHABITAT - United Nations Human Settlements Programme
   Location: Nairobi
   Posting date: Unknown
-  Application deadline: May 04, 2026 (5 days)
+  Application deadline: May 04, 2026
   Contract type: Unknown
   Scope: Unknown
   Grade/level: Unknown
@@ -1644,7 +1633,7 @@ None
   Organization: Alliance Bioversity & CIAT
   Location: Bogotá
   Posting date: Unknown
-  Application deadline: May 04, 2026 (5 days)
+  Application deadline: May 04, 2026
   Contract type: Unknown
   Scope: Unknown
   Grade/level: Unknown
@@ -1661,6 +1650,17 @@ None
   Grade/level: Unknown
   Remote: Remote
   Link: https://www.impactpool.org/jobs/1206972
+
+- Project Analyst (Democratic Governance) (Open to internal and external applicants)
+  Organization: UNDP - United Nations Development Programme
+  Location: Suva, Yaren
+  Posting date: Unknown
+  Application deadline: May 13, 2026 (13 days)
+  Contract type: NPSA-9
+  Scope: Unknown
+  Grade/level: NPSA-9
+  Remote: On-site/Hybrid
+  Link: https://www.impactpool.org/jobs/1210321
 
 - Project Rights Based Development Analyst (Open to Tier 1 & 2 applicants)
   Organization: UNDP - United Nations Development Programme
@@ -1688,7 +1688,7 @@ None
   Organization: UNDP - United Nations Development Programme
   Location: Tashkent
   Posting date: Unknown
-  Application deadline: May 05, 2026 (6 days)
+  Application deadline: May 05, 2026 (5 days)
   Contract type: NPSA-8
   Scope: Unknown
   Grade/level: NPSA-8
@@ -1710,7 +1710,7 @@ None
   Organization: UNDP - United Nations Development Programme
   Location: Sarajevo
   Posting date: Unknown
-  Application deadline: May 05, 2026 (6 days)
+  Application deadline: May 05, 2026 (5 days)
   Contract type: NPSA-8
   Scope: Unknown
   Grade/level: NPSA-8
@@ -1721,7 +1721,7 @@ None
   Organization: UNIDO - United Nations Industrial Development Organization
   Location: Vienna
   Posting date: Unknown
-  Application deadline: May 12, 2026 (13 days)
+  Application deadline: May 12, 2026 (12 days)
   Contract type: Unknown
   Scope: International
   Grade/level: Unknown
@@ -1739,33 +1739,22 @@ None
   Remote: On-site/Hybrid
   Link: https://www.impactpool.org/jobs/1208440
 
-- Consultant on Monitoring and Creative Industries Development
-  Organization: ITC - International Trade Centre
-  Location: Banjul, Geneva
+- Supporter Engagement & Data Support Consultant (National), Office-based, #592629
+  Organization: UNICEF - United Nations Children’s Fund
+  Location: Bangkok
   Posting date: Unknown
-  Application deadline: April 30, 2026
-  Contract type: Unknown
+  Application deadline: May 03, 2026
+  Contract type: Consultant - Contractors Agreement - Consultancy
   Scope: Unknown
   Grade/level: Unknown
   Remote: On-site/Hybrid
-  Link: https://www.impactpool.org/jobs/1210038
-
-- Internship - Human Resources - Strategic Workforce Planning and HR Analytics
-  Organization: ICC - International Criminal Court
-  Location: The Hague
-  Posting date: Unknown
-  Application deadline: December 31, 2026 (8 months)
-  Contract type: Internship - Internship
-  Scope: Unknown
-  Grade/level: Unknown
-  Remote: On-site/Hybrid
-  Link: https://www.impactpool.org/jobs/1192439
+  Link: https://www.impactpool.org/jobs/1210263
 
 - Monitoring Engineer
   Organization: FAO - Food and Agriculture Organization of the United Nations
   Location: Philippines
   Posting date: Unknown
-  Application deadline: May 06, 2026 (7 days)
+  Application deadline: May 06, 2026 (6 days)
   Contract type: Consultant - Contractors Agreement - Consultancy
   Scope: Unknown
   Grade/level: Unknown
@@ -1776,7 +1765,7 @@ None
   Organization: SPC - Pacific Community
   Location: Suva
   Posting date: Unknown
-  Application deadline: May 24, 2026 (25 days)
+  Application deadline: May 24, 2026 (24 days)
   Contract type: Unknown
   Scope: International
   Grade/level: NOT
@@ -1787,7 +1776,7 @@ None
   Organization: SPC - Pacific Community
   Location: Suva
   Posting date: Unknown
-  Application deadline: May 24, 2026 (25 days)
+  Application deadline: May 24, 2026 (24 days)
   Contract type: Unknown
   Scope: International
   Grade/level: NOT
@@ -1798,7 +1787,7 @@ None
   Organization: FAO - Food and Agriculture Organization of the United Nations
   Location: Home Based - May require travel
   Posting date: Unknown
-  Application deadline: May 06, 2026 (7 days)
+  Application deadline: May 06, 2026 (6 days)
   Contract type: Consultant - Contractors Agreement - Consultancy
   Scope: Unknown
   Grade/level: Unknown
@@ -1827,6 +1816,17 @@ None
   Remote: Remote
   Link: https://www.impactpool.org/jobs/1210074
 
+- Consultant on Monitoring and Creative Industries Development
+  Organization: ITC - International Trade Centre
+  Location: Banjul, Geneva
+  Posting date: Unknown
+  Application deadline: April 30, 2026
+  Contract type: Unknown
+  Scope: Unknown
+  Grade/level: Unknown
+  Remote: On-site/Hybrid
+  Link: https://www.impactpool.org/jobs/1210038
+
 - Monitoring and Reporting consultant
   Organization: UNEP - United Nations Environment Programme
   Location: Geneva
@@ -1840,7 +1840,7 @@ None
 
 - Field Monitoring Engineer
   Organization: CTG - Committed To Good
-  Location: Ukraine, Multiple locations
+  Location: Multiple locations, Ukraine
   Posting date: Unknown
   Application deadline: December 31, 2026 (8 months)
   Contract type: Unknown
@@ -1882,6 +1882,17 @@ None
   Remote: On-site/Hybrid
   Link: https://www.impactpool.org/jobs/1209975
 
+- Internship - Country Analysis Unit
+  Organization: ICC - International Criminal Court
+  Location: The Hague
+  Posting date: Unknown
+  Application deadline: December 31, 2026 (8 months)
+  Contract type: Internship - Internship
+  Scope: Unknown
+  Grade/level: Unknown
+  Remote: On-site/Hybrid
+  Link: https://www.impactpool.org/jobs/1192495
+
 - ADAPTATION MONITORING AND REVIEW, KNOWLEDGE MANAGEMENT AND TECHNICAL ADVISOR
   Organization: UNEP - United Nations Environment Programme
   Location: Nairobi
@@ -1897,7 +1908,7 @@ None
   Organization: UNDRR - United Nations Office for Disaster Risk Reduction
   Location: Panamá
   Posting date: Unknown
-  Application deadline: May 14, 2026 (15 days)
+  Application deadline: May 14, 2026 (14 days)
   Contract type: Internship - Internship
   Scope: Unknown
   Grade/level: Unknown
@@ -1915,11 +1926,22 @@ None
   Remote: Remote
   Link: https://www.impactpool.org/jobs/1208141
 
+- Evaluation Consultancy, (Internationals only), Office-based, #592635
+  Organization: UNICEF - United Nations Children’s Fund
+  Location: Bangkok
+  Posting date: Unknown
+  Application deadline: May 03, 2026
+  Contract type: Consultancy
+  Scope: Unknown
+  Grade/level: Unknown
+  Remote: On-site/Hybrid
+  Link: https://www.impactpool.org/jobs/1210264
+
 - Evaluation Specialist, P-3, Temporary Position, 364 days, #00136936, Evaluation Office - Nairobi, Kenya
   Organization: UNICEF - United Nations Children’s Fund
   Location: Nairobi
   Posting date: Unknown
-  Application deadline: May 08, 2026 (9 days)
+  Application deadline: May 08, 2026 (8 days)
   Contract type: International Professional
   Scope: International
   Grade/level: P-3
@@ -1930,7 +1952,7 @@ None
   Organization: UNEP - United Nations Environment Programme
   Location: Nairobi
   Posting date: Unknown
-  Application deadline: May 06, 2026 (7 days)
+  Application deadline: May 06, 2026 (6 days)
   Contract type: Unknown
   Scope: Unknown
   Grade/level: Unknown
@@ -1941,12 +1963,34 @@ None
   Organization: UNEP - United Nations Environment Programme
   Location: Nairobi
   Posting date: Unknown
-  Application deadline: May 06, 2026 (7 days)
+  Application deadline: May 06, 2026 (6 days)
   Contract type: Unknown
   Scope: Unknown
   Grade/level: Unknown
   Remote: Remote
   Link: https://www.impactpool.org/jobs/1209340
+
+- Evaluation Consultant
+  Organization: IOM - International Organization for Migration
+  Location: Phnom Penh
+  Posting date: Unknown
+  Application deadline: May 04, 2026
+  Contract type: Unknown
+  Scope: Unknown
+  Grade/level: Unknown
+  Remote: On-site/Hybrid
+  Link: https://www.impactpool.org/jobs/1210314
+
+- CONSULTANT EVALUATION FINALE DU PROJET " Appui au retour volontaire et au suivi des flux migratoires au Niger"
+  Organization: IOM - International Organization for Migration
+  Location: Niamey, Agadez
+  Posting date: Unknown
+  Application deadline: May 09, 2026 (9 days)
+  Contract type: Unknown
+  Scope: Unknown
+  Grade/level: Unknown
+  Remote: On-site/Hybrid
+  Link: https://www.impactpool.org/jobs/1210284
 
 - Evaluation Alliance for Human Rights (EAHR) Coordinator
   Organization: IRC - International Rescue Committee
@@ -1981,17 +2025,6 @@ None
   Remote: On-site/Hybrid
   Link: https://www.impactpool.org/jobs/1206816
 
-- Information Management Specialist
-  Organization: WTO - World Trade Organization
-  Location: Geneva
-  Posting date: Unknown
-  Application deadline: May 08, 2026 (9 days)
-  Contract type: Unknown
-  Scope: International
-  Grade/level: Unknown
-  Remote: On-site/Hybrid
-  Link: https://www.impactpool.org/jobs/1207235
-
 - Internship - Information Management Office - Migration Project
   Organization: ICC - International Criminal Court
   Location: The Hague
@@ -2002,6 +2035,17 @@ None
   Grade/level: Unknown
   Remote: On-site/Hybrid
   Link: https://www.impactpool.org/jobs/1192446
+
+- Information Management Specialist
+  Organization: WTO - World Trade Organization
+  Location: Geneva
+  Posting date: Unknown
+  Application deadline: May 08, 2026 (8 days)
+  Contract type: Unknown
+  Scope: International
+  Grade/level: Unknown
+  Remote: On-site/Hybrid
+  Link: https://www.impactpool.org/jobs/1207235
 
 - Senior Information Management Assistant (ICJ Internal Temporary Opening)
   Organization: ICJ - International Court of Justice
@@ -2018,18 +2062,29 @@ None
   Organization: WFP - World Food Programme
   Location: N'Djamena
   Posting date: Unknown
-  Application deadline: May 05, 2026 (6 days)
+  Application deadline: May 05, 2026 (5 days)
   Contract type: Consultancy
   Scope: Unknown
   Grade/level: Unknown
   Remote: On-site/Hybrid
   Link: https://www.impactpool.org/jobs/1208996
 
+- Nuclear Security Information Management Officer (Technical Lead)(P4)
+  Organization: IAEA - International Atomic Energy Agency
+  Location: Vienna
+  Posting date: Unknown
+  Application deadline: May 24, 2026 (24 days)
+  Contract type: International Professional
+  Scope: International
+  Grade/level: P-4
+  Remote: On-site/Hybrid
+  Link: https://www.impactpool.org/jobs/1210191
+
 - Senior Staff Officer (IM Analyst - JFCNF)
   Organization: NATO - North Atlantic Treaty Organization
   Location: United States
   Posting date: Unknown
-  Application deadline: May 06, 2026 (7 days)
+  Application deadline: May 07, 2026 (7 days)
   Contract type: Unknown
   Scope: Unknown
   Grade/level: Unknown
@@ -2040,12 +2095,67 @@ None
   Organization: IAEA - International Atomic Energy Agency
   Location: Vienna
   Posting date: Unknown
-  Application deadline: May 15, 2026 (16 days)
+  Application deadline: May 14, 2026 (14 days)
   Contract type: International Professional
   Scope: International
   Grade/level: P-5
   Remote: On-site/Hybrid
   Link: https://www.impactpool.org/jobs/1207930
+
+- Internship - Evaluation of Fission Yield and Fission Neutron Data
+  Organization: IAEA - International Atomic Energy Agency
+  Location: Monaco, Seibersdorf, Vienna
+  Posting date: Unknown
+  Application deadline: May 04, 2026
+  Contract type: Unknown
+  Scope: Unknown
+  Grade/level: Unknown
+  Remote: On-site/Hybrid
+  Link: https://www.impactpool.org/jobs/1210192
+
+- Technology for Disaster Risk Reduction Assessment Intern
+  Organization: UNDRR - United Nations Office for Disaster Risk Reduction
+  Location: Panamá
+  Posting date: Unknown
+  Application deadline: May 16, 2026 (16 days)
+  Contract type: Unknown
+  Scope: Unknown
+  Grade/level: Unknown
+  Remote: Remote
+  Link: https://www.impactpool.org/jobs/1210157
+
+- Support for the development of the Regional Assessment Report 2027 - Intern
+  Organization: UNDRR - United Nations Office for Disaster Risk Reduction
+  Location: Panamá
+  Posting date: Unknown
+  Application deadline: May 16, 2026 (16 days)
+  Contract type: Unknown
+  Scope: Unknown
+  Grade/level: Unknown
+  Remote: On-site/Hybrid
+  Link: https://www.impactpool.org/jobs/1210155
+
+- Data Centre Network Engineer
+  Organization: EMBL - European Molecular Biology Laboratory
+  Location: Cambridgeshire
+  Posting date: Unknown
+  Application deadline: May 20, 2026 (20 days)
+  Contract type: Unknown
+  Scope: Unknown
+  Grade/level: Unknown
+  Remote: On-site/Hybrid
+  Link: https://www.impactpool.org/jobs/1209700
+
+- Internship - Victims and Witnesses Section - Analysis Unit
+  Organization: ICC - International Criminal Court
+  Location: The Hague
+  Posting date: Unknown
+  Application deadline: December 31, 2026 (8 months)
+  Contract type: Unknown
+  Scope: Unknown
+  Grade/level: Unknown
+  Remote: On-site/Hybrid
+  Link: https://www.impactpool.org/jobs/1192461
 
 - Data Specialist (Temporary)
   Organization: UNDRR - United Nations Office for Disaster Risk Reduction
@@ -2062,7 +2172,7 @@ None
   Organization: IAEA - International Atomic Energy Agency
   Location: Vienna
   Posting date: Unknown
-  Application deadline: May 15, 2026 (16 days)
+  Application deadline: May 16, 2026 (16 days)
   Contract type: Unknown
   Scope: Unknown
   Grade/level: Unknown
@@ -2145,17 +2255,6 @@ None
   Grade/level: Unknown
   Remote: Remote
   Link: https://www.impactpool.org/jobs/1208930
-
-- Internship - Country Analysis Unit
-  Organization: ICC - International Criminal Court
-  Location: The Hague
-  Posting date: Unknown
-  Application deadline: December 31, 2026 (8 months)
-  Contract type: Unknown
-  Scope: Unknown
-  Grade/level: Unknown
-  Remote: On-site/Hybrid
-  Link: https://www.impactpool.org/jobs/1192495
 
 - Data Analytics Intern
   Organization: Mercy Corps
@@ -2245,22 +2344,11 @@ None
   Remote: Remote
   Link: https://www.impactpool.org/jobs/1208381
 
-- E T Temporary - Junior Service Delivery Analyst
-  Organization: World Bank Group
-  Location: Kyiv
-  Posting date: Unknown
-  Application deadline: April 27, 2026
-  Contract type: Unknown
-  Scope: Unknown
-  Grade/level: Unknown
-  Remote: On-site/Hybrid
-  Link: https://www.impactpool.org/jobs/1207555
-
 - German National Graduate Trainee in Earth Observation Data Science
   Organization: ESA - European Space Agency
   Location: Frascati
   Posting date: Unknown
-  Application deadline: May 20, 2026 (21 days)
+  Application deadline: May 20, 2026 (20 days)
   Contract type: Unknown
   Scope: Unknown
   Grade/level: Unknown
@@ -2425,7 +2513,7 @@ None
   Organization: ESA - European Space Agency
   Location: Noordwijk
   Posting date: Unknown
-  Application deadline: May 20, 2026 (21 days)
+  Application deadline: May 20, 2026 (20 days)
   Contract type: Unknown
   Scope: Unknown
   Grade/level: Unknown
@@ -2436,11 +2524,11 @@ None
   Organization: Deutsche Welthungerhilfe
   Location: Bonn
   Posting date: Unknown
-  Application deadline: May 10, 2026 (11 days)
+  Application deadline: May 10, 2026 (10 days)
   Contract type: Unknown
   Scope: Unknown
   Grade/level: Unknown
-  Remote: Remote
+  Remote: On-site/Hybrid
   Link: https://www.impactpool.org/jobs/1209235
 
 - Finance Data Consultant
@@ -2667,7 +2755,7 @@ None
   Organization: ICRC - International Committee of the Red Cross
   Location: Jordan
   Posting date: Unknown
-  Application deadline: May 22, 2026 (23 days)
+  Application deadline: May 22, 2026 (22 days)
   Contract type: Unknown
   Scope: Unknown
   Grade/level: Unknown
@@ -2865,7 +2953,7 @@ None
   Organization: WHO - World Health Organization
   Location: Sri Lanka-Colombo
   Posting date: Unknown
-  Application deadline: May 06, 2026 (7 days)
+  Application deadline: May 06, 2026 (6 days)
   Contract type: Unknown
   Scope: Unknown
   Grade/level: Unknown
@@ -2909,7 +2997,7 @@ None
   Organization: ECMWF - European Centre for Medium-Range Weather Forecasts
   Location: Bonn
   Posting date: Unknown
-  Application deadline: May 04, 2026 (5 days)
+  Application deadline: May 04, 2026
   Contract type: Unknown
   Scope: Unknown
   Grade/level: Unknown
@@ -2931,7 +3019,7 @@ None
   Organization: IAEA - International Atomic Energy Agency
   Location: Vienna
   Posting date: Unknown
-  Application deadline: May 08, 2026 (9 days)
+  Application deadline: May 08, 2026 (8 days)
   Contract type: Unknown
   Scope: Unknown
   Grade/level: Unknown
@@ -3624,7 +3712,7 @@ None
   Organization: OSCE - Organization for Security and Co-operation in Europe
   Location: Vienna
   Posting date: Unknown
-  Application deadline: May 05, 2026 (6 days)
+  Application deadline: May 05, 2026 (5 days)
   Contract type: Unknown
   Scope: Unknown
   Grade/level: P-3
@@ -3635,7 +3723,7 @@ None
   Organization: OHCHR - Office of the High Commissioner for Human Rights
   Location: Geneva
   Posting date: Unknown
-  Application deadline: May 21, 2026 (22 days)
+  Application deadline: May 21, 2026 (21 days)
   Contract type: Unknown
   Scope: International
   Grade/level: P-4
