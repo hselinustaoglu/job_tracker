@@ -4,19 +4,28 @@ from __future__ import annotations
 
 import json
 import re
+import socket
+import sys
+import time
+from datetime import date, datetime
 from html import unescape
 from html.parser import HTMLParser
 from urllib.parse import urlencode, urljoin
+from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 
 from .config import (
+    AB_ILAN_NGO_CAREERS_URL,
     BASE_SEARCH_URL,
     BASE_SITE_URL,
+    EEAS_TURKIYE_URL,
+    RELIEFWEB_REMOTE_JOBS_URL,
     DEFAULT_MAX_PAGES,
     DEFAULT_PER_PAGE,
     DEFAULT_QUERY_MAX_PAGES,
     DEFAULT_TIMEOUT_SECONDS,
     DEFAULT_USER_AGENT,
+    EXCLUDED_TITLE_TERMS,
     TITLE_KEYWORDS,
 )
 from .models import JobPosting
@@ -60,6 +69,14 @@ REMOTE_PATTERN = re.compile(
     r"\b(remote|home[-\s]?based|home based|telework|work from home|fully remote|remote eligible)\b",
     re.IGNORECASE,
 )
+DEADLINE_DATE_PATTERN = re.compile(r"\b\d{2}\.\d{2}\.\d{4}\b")
+AB_ILAN_FIELD_LABELS = {
+    "job_title": "Ilan Basligi",
+    "job_title_tr": "Ilan Basligi".casefold(),
+    "job_title_unicode": "İlan Başlığı".casefold(),
+    "location": "Lokasyon".casefold(),
+    "deadline": "Son Başvuru Tarihi".casefold(),
+}
 
 
 def normalize_title(title: str) -> str:
@@ -93,14 +110,82 @@ def title_matches_keywords(title: str, keywords: tuple[str, ...] = TITLE_KEYWORD
     return False
 
 
+def title_has_excluded_terms(title: str, excluded_terms: tuple[str, ...] = EXCLUDED_TITLE_TERMS) -> bool:
+    normalized = normalize_title(title)
+
+    for excluded_term in excluded_terms:
+        term = normalize_title(excluded_term)
+        if not term:
+            continue
+        if re.search(rf"\b{re.escape(term)}s?\b", normalized):
+            return True
+
+    return False
+
+
 def posting_matches_filters(posting: JobPosting) -> bool:
+    if posting.source == "ReliefWeb":
+        return _reliefweb_posting_matches_filters(posting)
+    if posting.source == "AB-ilan":
+        return _ab_ilan_posting_matches_filters(posting)
+    if posting.source == "EEAS":
+        return _eeas_posting_matches_filters(posting)
+
     if not title_matches_keywords(posting.title):
+        return False
+
+    if title_has_excluded_terms(posting.title):
         return False
 
     if posting.recruitment_scope == "National":
         location = normalize_title(posting.location or "")
         if "ankara" not in location:
             return False
+
+    return True
+
+
+def _eeas_posting_matches_filters(posting: JobPosting) -> bool:
+    if title_has_excluded_terms(posting.title):
+        return False
+
+    location = normalize_title(posting.location or "")
+    if not any(marker in location for marker in ("ankara", "istanbul", "turkiye", "türkiye", "turkey")):
+        return False
+
+    deadline = normalize_title(posting.application_deadline or "")
+    if "expired" in deadline:
+        return False
+
+    return True
+
+
+def _ab_ilan_posting_matches_filters(posting: JobPosting) -> bool:
+    if not title_matches_keywords(posting.title):
+        return False
+
+    if title_has_excluded_terms(posting.title):
+        return False
+
+    location = normalize_title(posting.location or "")
+    if not any(marker in location for marker in ("ankara", "uzaktan")):
+        return False
+
+    if _is_past_deadline(posting.application_deadline):
+        return False
+
+    return True
+
+
+def _reliefweb_posting_matches_filters(posting: JobPosting) -> bool:
+    if not title_matches_keywords(posting.title):
+        return False
+
+    if title_has_excluded_terms(posting.title):
+        return False
+
+    if _is_past_deadline(posting.application_deadline):
+        return False
 
     return True
 
@@ -184,7 +269,11 @@ def fetch_matching_jobs(
 
     search_specs = _build_search_specs(max_pages=max_pages, per_page=per_page)
     for search_url in search_specs:
-        search_html = _fetch_text(search_url, timeout_seconds=timeout_seconds)
+        try:
+            search_html = _fetch_text(search_url, timeout_seconds=timeout_seconds)
+        except Exception as exc:
+            _warn_fetch_failure("search page", search_url, exc)
+            continue
         job_links = extract_job_links(search_html)
         if not job_links:
             continue
@@ -194,7 +283,11 @@ def fetch_matching_jobs(
                 continue
 
             seen_job_ids.add(job_id)
-            detail_html = _fetch_text(job_url, timeout_seconds=timeout_seconds)
+            try:
+                detail_html = _fetch_text(job_url, timeout_seconds=timeout_seconds)
+            except Exception as exc:
+                _warn_fetch_failure(f"job detail {job_id}", job_url, exc)
+                continue
             posting = parse_job_detail(
                 job_id=job_id,
                 url=job_url,
@@ -205,6 +298,10 @@ def fetch_matching_jobs(
             if posting_matches_filters(posting):
                 matches.append(posting)
 
+    matches.extend(fetch_eeas_jobs(timeout_seconds=timeout_seconds))
+    matches.extend(fetch_ab_ilan_jobs(timeout_seconds=timeout_seconds))
+    matches.extend(fetch_reliefweb_jobs(timeout_seconds=timeout_seconds))
+
     if previous_snapshot:
         _merge_still_active_missing_jobs(
             matches=matches,
@@ -213,6 +310,61 @@ def fetch_matching_jobs(
         )
 
     return matches
+
+
+def fetch_eeas_jobs(timeout_seconds: int = DEFAULT_TIMEOUT_SECONDS) -> list[JobPosting]:
+    try:
+        eeas_html = _fetch_text(EEAS_TURKIYE_URL, timeout_seconds=timeout_seconds)
+    except Exception as exc:
+        _warn_fetch_failure("EEAS vacancy list", EEAS_TURKIYE_URL, exc)
+        return []
+    eeas_parser = _EeasVacancyListParser()
+    eeas_parser.feed(eeas_html)
+    eeas_parser.close()
+
+    postings: list[JobPosting] = []
+    for raw_vacancy in eeas_parser.vacancies:
+        posting = _build_eeas_posting(raw_vacancy)
+        if posting and posting_matches_filters(posting):
+            postings.append(posting)
+
+    return postings
+
+
+def fetch_ab_ilan_jobs(timeout_seconds: int = DEFAULT_TIMEOUT_SECONDS) -> list[JobPosting]:
+    try:
+        ab_ilan_html = _fetch_text(AB_ILAN_NGO_CAREERS_URL, timeout_seconds=timeout_seconds)
+    except Exception as exc:
+        _warn_fetch_failure("AB-ilan NGO careers list", AB_ILAN_NGO_CAREERS_URL, exc)
+        return []
+    parser = _AbIlanListParser()
+    parser.feed(ab_ilan_html)
+    parser.close()
+
+    postings: list[JobPosting] = []
+    for row in parser.rows:
+        posting = _build_ab_ilan_posting(row)
+        if posting and posting_matches_filters(posting):
+            postings.append(posting)
+    return postings
+
+
+def fetch_reliefweb_jobs(timeout_seconds: int = DEFAULT_TIMEOUT_SECONDS) -> list[JobPosting]:
+    try:
+        reliefweb_html = _fetch_text(RELIEFWEB_REMOTE_JOBS_URL, timeout_seconds=timeout_seconds)
+    except Exception as exc:
+        _warn_fetch_failure("ReliefWeb remote jobs list", RELIEFWEB_REMOTE_JOBS_URL, exc)
+        return []
+    parser = _ReliefWebListParser()
+    parser.feed(reliefweb_html)
+    parser.close()
+
+    postings: list[JobPosting] = []
+    for item in parser.items:
+        posting = _build_reliefweb_posting(item)
+        if posting and posting_matches_filters(posting):
+            postings.append(posting)
+    return postings
 
 
 def _build_search_specs(max_pages: int, per_page: int) -> list[str]:
@@ -261,8 +413,20 @@ def _extract_job_schema(html: str) -> dict[str, object] | None:
 
 def _fetch_text(url: str, timeout_seconds: int) -> str:
     request = Request(url, headers={"User-Agent": DEFAULT_USER_AGENT})
-    with urlopen(request, timeout=timeout_seconds) as response:
-        return response.read().decode("utf-8", errors="replace")
+    attempts = 3
+    for attempt in range(1, attempts + 1):
+        try:
+            with urlopen(request, timeout=timeout_seconds) as response:
+                return response.read().decode("utf-8", errors="replace")
+        except (TimeoutError, socket.timeout, URLError, HTTPError) as exc:
+            if attempt == attempts:
+                raise
+            time.sleep(min(attempt, 3))
+    raise RuntimeError(f"Failed to fetch {url}")
+
+
+def _warn_fetch_failure(kind: str, url: str, exc: Exception) -> None:
+    print(f"Warning: failed to fetch {kind} {url}: {exc}", file=sys.stderr)
 
 
 def _find_job_posting_schema(payload: object) -> dict[str, object] | None:
@@ -463,6 +627,183 @@ def _parse_remote_status(
     return "On-site/Hybrid"
 
 
+def _build_eeas_posting(raw_vacancy: dict[str, str | None]) -> JobPosting | None:
+    title = (raw_vacancy.get("title") or "").strip()
+    url = (raw_vacancy.get("url") or "").strip()
+    details_text = (raw_vacancy.get("details") or "").strip()
+    if not title or not url or "deadline" not in details_text.casefold():
+        return None
+    if re.search(r"\bexpired\b", details_text, re.IGNORECASE):
+        return None
+
+    status = _extract_eeas_field(details_text, "status")
+    if status and "expired" in status.casefold():
+        return None
+
+    location = _extract_eeas_field(details_text, "location")
+    teaser = _extract_eeas_field(details_text, "teaser")
+    if not _is_turkiye_eeas_job(title=title, location=location, teaser=teaser):
+        return None
+
+    category = _extract_eeas_field(details_text, "category")
+    deadline = _extract_eeas_field(details_text, "deadline")
+    recruitment_scope = _infer_eeas_scope(category, teaser)
+
+    return JobPosting(
+        job_id=f"eeas:{url}",
+        title=title,
+        url=urljoin("https://www.eeas.europa.eu", url),
+        organization=_infer_eeas_organization(title, teaser),
+        location=location,
+        application_deadline=deadline,
+        contract_type=category,
+        recruitment_scope=recruitment_scope,
+        remote_status="Unknown",
+        source="EEAS",
+    )
+
+
+def _extract_ab_ilan_fields(details_text: str) -> dict[str, str]:
+    normalized = " ".join(details_text.split())
+    extracted: dict[str, str] = {}
+    patterns = {
+        "job_title": r"(?:İlan Başlığı|Ilan Basligi)\s*:\s*(?P<value>.*?)(?=\s+(?:Lokasyon|Son Başvuru Tarihi)\s*:|$)",
+        "location": r"Lokasyon\s*:\s*(?P<value>.*?)(?=\s+(?:İlan Başlığı|Ilan Basligi|Son Başvuru Tarihi)\s*:|$)",
+        "deadline": r"Son Başvuru Tarihi\s*:\s*(?P<value>.*?)(?=\s+(?:İlan Başlığı|Ilan Basligi|Lokasyon)\s*:|$)",
+    }
+    for field_name, pattern in patterns.items():
+        match = re.search(pattern, normalized, re.IGNORECASE)
+        if match:
+            extracted[field_name] = match.group("value").strip()
+
+    return extracted
+
+
+def _build_ab_ilan_posting(row: dict[str, str | None]) -> JobPosting | None:
+    title = (row.get("title") or "").strip()
+    url = (row.get("url") or "").strip()
+    if not title or not url:
+        return None
+
+    location = (row.get("location") or "").strip() or None
+    deadline = (row.get("deadline") or "").strip() or None
+
+    return JobPosting(
+        job_id=f"ab-ilan:{url}",
+        title=title,
+        url=urljoin("https://ab-ilan.com", url),
+        organization=(row.get("organization") or "").strip() or "Unknown",
+        location=location,
+        application_deadline=deadline,
+        remote_status="Remote" if location and "uzaktan" in normalize_title(location) else "On-site/Hybrid",
+        source="AB-ilan",
+    )
+
+
+def _build_reliefweb_posting(item: dict[str, str | None]) -> JobPosting | None:
+    title = (item.get("title") or "").strip()
+    url = (item.get("url") or "").strip()
+    if not title or not url:
+        return None
+
+    closing_date = (item.get("closing_date") or "").strip() or None
+    return JobPosting(
+        job_id=f"reliefweb:{url}",
+        title=title,
+        url=url,
+        organization=(item.get("organization") or "").strip() or "Unknown",
+        posting_date=(item.get("posted_date") or "").strip() or None,
+        application_deadline=closing_date,
+        location="Remote / Roster / Roving",
+        remote_status="Remote",
+        source="ReliefWeb",
+    )
+
+
+def _is_past_deadline(deadline: str | None, today: date | None = None) -> bool:
+    if not deadline:
+        return False
+
+    active_today = today or date.today()
+    normalized = deadline.strip()
+    for fmt in ("%d/%m/%Y", "%d.%m.%Y", "%d-%m-%Y"):
+        try:
+            parsed = datetime.strptime(normalized, fmt).date()
+            return parsed < active_today
+        except ValueError:
+            continue
+    for fmt in ("%d %b %Y", "%d %B %Y"):
+        try:
+            parsed = datetime.strptime(normalized, fmt).date()
+            return parsed < active_today
+        except ValueError:
+            continue
+    return False
+
+
+def _extract_eeas_field(details_text: str, field_name: str) -> str | None:
+    label_order = ["status", "teaser", "location", "category", "deadline"]
+    label_display = {
+        "status": ("New opportunity", "Expiring soon", "Expired"),
+        "teaser": ("Teaser",),
+        "location": ("Location",),
+        "category": ("Category",),
+        "deadline": ("Deadline",),
+    }
+
+    start_positions: list[tuple[int, str]] = []
+    for label in label_order:
+        for display in label_display[label]:
+            index = details_text.find(display)
+            if index >= 0:
+                start_positions.append((index, label))
+                break
+
+    start_positions.sort()
+    field_map: dict[str, str] = {}
+    for idx, (start, label) in enumerate(start_positions):
+        end = start_positions[idx + 1][0] if idx + 1 < len(start_positions) else len(details_text)
+        chunk = details_text[start:end].strip()
+        for display in label_display[label]:
+            if chunk.startswith(display):
+                value = chunk[len(display) :].strip(" :\n")
+                field_map[label] = " ".join(value.split())
+                break
+
+    return field_map.get(field_name)
+
+
+def _is_turkiye_eeas_job(title: str, location: str | None, teaser: str | None) -> bool:
+    combined = normalize_title(" ".join(part for part in (title, location or "", teaser or "") if part))
+    turkiye_markers = (
+        "turkiye",
+        "türkiye",
+        "turkey",
+        "ankara",
+        "istanbul",
+        "delegation to türkiye",
+        "delegation to turkey",
+    )
+    return any(marker in combined for marker in turkiye_markers)
+
+
+def _infer_eeas_scope(category: str | None, teaser: str | None) -> str | None:
+    normalized_category = normalize_title(category or "")
+    normalized_teaser = normalize_title(teaser or "")
+    if "local agent" in normalized_category or "local agent" in normalized_teaser:
+        return "National"
+    if "international position" in normalized_category:
+        return "International"
+    return None
+
+
+def _infer_eeas_organization(title: str, teaser: str | None) -> str:
+    combined = normalize_title(" ".join(part for part in (title, teaser or "") if part))
+    if "delegation" in combined:
+        return "EEAS - EU Delegation"
+    return "EEAS"
+
+
 def _merge_still_active_missing_jobs(
     matches: list[JobPosting],
     previous_snapshot: dict[str, JobPosting],
@@ -472,6 +813,8 @@ def _merge_still_active_missing_jobs(
 
     for job_id, previous_posting in previous_snapshot.items():
         if job_id in current_by_id:
+            continue
+        if previous_posting.source != "Impactpool":
             continue
 
         try:
@@ -552,3 +895,253 @@ class _FirstTagTextExtractor(HTMLParser):
         if self._capturing and tag.casefold() == self._target_tag:
             self.text = " ".join(" ".join(self._parts).split()) or None
             self._capturing = False
+
+
+class _EeasVacancyListParser(HTMLParser):
+    def __init__(self) -> None:
+        super().__init__()
+        self.vacancies: list[dict[str, str | None]] = []
+        self._in_heading = False
+        self._heading_level = None
+        self._current_href: str | None = None
+        self._heading_parts: list[str] = []
+        self._details_parts: list[str] = []
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        tag_name = tag.casefold()
+        if tag_name in {"h2", "h3", "h4"}:
+            self._flush_current()
+            self._in_heading = True
+            self._heading_level = tag_name
+            self._current_href = None
+            self._heading_parts = []
+            self._details_parts = []
+            return
+
+        if self._in_heading and tag_name == "a":
+            attr_map = {name.casefold(): value for name, value in attrs}
+            href = attr_map.get("href")
+            if href:
+                self._current_href = href
+
+    def handle_data(self, data: str) -> None:
+        cleaned = " ".join(data.split())
+        if not cleaned:
+            return
+        if self._in_heading:
+            self._heading_parts.append(cleaned)
+        elif self._heading_parts:
+            self._details_parts.append(cleaned)
+
+    def handle_endtag(self, tag: str) -> None:
+        tag_name = tag.casefold()
+        if self._in_heading and tag_name == self._heading_level:
+            self._in_heading = False
+            self._heading_level = None
+
+    def close(self) -> None:
+        super().close()
+        self._flush_current()
+
+    def _flush_current(self) -> None:
+        title = " ".join(self._heading_parts).strip()
+        details = " ".join(self._details_parts).strip()
+        if title and self._current_href:
+            self.vacancies.append(
+                {
+                    "title": title,
+                    "url": self._current_href,
+                    "details": details,
+                }
+            )
+        self._current_href = None
+        self._heading_parts = []
+        self._details_parts = []
+
+
+class _AbIlanListParser(HTMLParser):
+    def __init__(self) -> None:
+        super().__init__()
+        self.rows: list[dict[str, str | None]] = []
+        self._in_row = False
+        self._current_cell_parts: list[str] = []
+        self._current_cells: list[dict[str, str | None]] = []
+        self._current_href: str | None = None
+        self._cell_has_link = False
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        tag_name = tag.casefold()
+        if tag_name == "tr":
+            self._in_row = True
+            self._current_cells = []
+            self._current_cell_parts = []
+            self._current_href = None
+            self._cell_has_link = False
+            return
+
+        if not self._in_row:
+            return
+
+        if tag_name == "td":
+            self._current_cell_parts = []
+            self._current_href = None
+            self._cell_has_link = False
+            return
+
+        if tag_name == "a":
+            attr_map = {name.casefold(): value for name, value in attrs}
+            href = attr_map.get("href")
+            if href:
+                self._current_href = href
+                self._cell_has_link = True
+
+    def handle_data(self, data: str) -> None:
+        if not self._in_row:
+            return
+        cleaned = " ".join(data.split())
+        if cleaned:
+            self._current_cell_parts.append(cleaned)
+
+    def handle_endtag(self, tag: str) -> None:
+        tag_name = tag.casefold()
+        if not self._in_row:
+            return
+
+        if tag_name == "td":
+            text = " ".join(self._current_cell_parts).strip()
+            self._current_cells.append({"text": text, "href": self._current_href})
+            self._current_cell_parts = []
+            self._current_href = None
+            self._cell_has_link = False
+            return
+
+        if tag_name == "tr":
+            self._commit_row()
+            self._in_row = False
+
+    def _commit_row(self) -> None:
+        texts = [cell.get("text") or "" for cell in self._current_cells]
+        if len(texts) < 6:
+            return
+        if normalize_title(texts[2]) in {"ilan basligi", "job announcements"}:
+            return
+
+        href = self._current_cells[2].get("href") or self._current_cells[0].get("href")
+        if not href:
+            return
+
+        self.rows.append(
+            {
+                "published_at": texts[1],
+                "title": texts[2],
+                "organization": texts[3],
+                "location": texts[4],
+                "deadline": texts[5],
+                "url": href,
+            }
+        )
+
+
+class _ReliefWebListParser(HTMLParser):
+    def __init__(self) -> None:
+        super().__init__()
+        self.items: list[dict[str, str | None]] = []
+        self._in_article = False
+        self._current: dict[str, str | None] | None = None
+        self._capture_title = False
+        self._capture_org = False
+        self._capture_time_kind: str | None = None
+        self._last_dt_label: str | None = None
+        self._org_parts: list[str] = []
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        tag_name = tag.casefold()
+        attr_map = {name.casefold(): value or "" for name, value in attrs}
+
+        if tag_name == "article" and "rw-river-article--job" in attr_map.get("class", ""):
+            self._in_article = True
+            self._current = {}
+            self._org_parts = []
+            return
+
+        if not self._in_article or self._current is None:
+            return
+
+        if tag_name == "h3" and "rw-river-article__title" in attr_map.get("class", ""):
+            self._capture_title = True
+            return
+
+        if self._capture_title and tag_name == "a":
+            href = attr_map.get("href")
+            if href:
+                self._current["url"] = href
+            return
+
+        if tag_name == "dt" and "rw-entity-meta__tag-label" in attr_map.get("class", ""):
+            self._last_dt_label = ""
+            return
+
+        if tag_name == "dd" and "rw-entity-meta__tag-value--source" in attr_map.get("class", ""):
+            self._capture_org = True
+            self._org_parts = []
+            return
+
+        if tag_name == "time":
+            if self._last_dt_label == "posted":
+                self._capture_time_kind = "posted_date"
+            elif self._last_dt_label == "closing-date":
+                self._capture_time_kind = "closing_date"
+
+    def handle_data(self, data: str) -> None:
+        if not self._in_article or self._current is None:
+            return
+
+        cleaned = " ".join(data.split())
+        if not cleaned:
+            return
+
+        if self._capture_title:
+            self._current["title"] = ((self._current.get("title") or "") + " " + cleaned).strip()
+            return
+
+        if self._capture_org:
+            self._org_parts.append(cleaned)
+            return
+
+        if self._capture_time_kind:
+            self._current[self._capture_time_kind] = cleaned
+            self._capture_time_kind = None
+            return
+
+        if self._last_dt_label is not None:
+            normalized = normalize_title(cleaned)
+            if normalized == "organization":
+                self._last_dt_label = "source"
+            elif normalized == "posted":
+                self._last_dt_label = "posted"
+            elif normalized == "closing date":
+                self._last_dt_label = "closing-date"
+
+    def handle_endtag(self, tag: str) -> None:
+        tag_name = tag.casefold()
+        if not self._in_article:
+            return
+
+        if tag_name == "h3":
+            self._capture_title = False
+            return
+
+        if tag_name == "dd" and self._capture_org and self._current is not None:
+            self._current["organization"] = " ".join(self._org_parts).strip()
+            self._capture_org = False
+            self._org_parts = []
+            return
+
+        if tag_name == "dt":
+            return
+
+        if tag_name == "article" and self._current:
+            self.items.append(self._current)
+            self._current = None
+            self._in_article = False
+            self._last_dt_label = None
