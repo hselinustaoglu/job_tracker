@@ -1,28 +1,17 @@
 # Today's Job Tracker Summary
 
-New jobs today: 2
+New jobs today: 1
 Removed since last run: 0
 
 ## New jobs today
 
-- Fleet Analyst
-  Organization: CIMMYT - International Maize and Wheat Improvement Center
-  Location: Mexico City
+- Research Software Engineer - User Configurable AI-Ready Datasets
+  Organization: ECMWF - European Centre for Medium-Range Weather Forecasts
+  Location: Reading, Bonn
   Posting date: Unknown
-  Application deadline: Unknown
-  Contract type: Unknown
-  Scope: Unknown
-  Grade/level: Unknown
-  Remote: On-site/Hybrid
-  Link: https://www.impactpool.org/jobs/1219418
-
-- HR Systems Analyst
-  Organization: RI
-  Location: Remote / Roster / Roving
-  Posting date: 12 Jun 2026
-  Application deadline: 30 Jun 2026
+  Application deadline: July 12, 2026 (27 days)
   Contract type: Unknown
   Scope: Unknown
   Grade/level: Unknown
   Remote: Remote
-  Link: https://reliefweb.int/job/4216059/hr-systems-analyst
+  Link: https://www.impactpool.org/jobs/1219451
